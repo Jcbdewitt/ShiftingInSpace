@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0804766c-b673-4ef3-8ff4-0d2f3f939533",
+            "Value": {
+                "id": "e6054fd4-0b15-4994-8af3-2265ed42d371",
+                "resourcePath": "objects\\player\\player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fd60293-eb96-4147-9d98-6908f7b03aeb",
             "Value": {
                 "id": "435733e5-859f-43e0-8152-970ba6f001fb",
@@ -103,6 +111,30 @@
             }
         },
         {
+            "Key": "85da1bd9-d702-4595-8236-c7a3a45abe9e",
+            "Value": {
+                "id": "e7f4f9d1-7484-4cee-80b5-5eb86bfe52e1",
+                "resourcePath": "sprites\\groundSprite\\groundSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e0ed59c-4c18-4813-a072-c7c5834f7ff6",
+            "Value": {
+                "id": "dd320def-d01c-4464-bf3a-9178804cd2f5",
+                "resourcePath": "sprites\\playerSprite\\playerSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0b76536-9106-4537-9af8-b08032925303",
+            "Value": {
+                "id": "a2de6103-11e2-4f3a-b71d-afa56647a1e8",
+                "resourcePath": "objects\\ground\\ground.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b16e304b-6fc8-4691-98c2-8b7e363d11d3",
             "Value": {
                 "id": "96848405-6568-4568-abfd-84b4595c6e7f",
@@ -156,6 +188,14 @@
                 "id": "9ff9da48-cd10-47e3-a42a-53ef01095234",
                 "resourcePath": "views\\e58d7278-c336-4070-8b17-b04b2b457669.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eaba6470-8277-43f4-a421-b16acd9778ee",
+            "Value": {
+                "id": "b14aeef8-54b1-47c0-82be-b23a152607e6",
+                "resourcePath": "objects\\player2\\player2.yy",
+                "resourceType": "GMObject"
             }
         },
         {

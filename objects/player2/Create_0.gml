@@ -1,0 +1,2 @@
+
+mySpeed = player.mySpeed;
