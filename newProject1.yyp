@@ -127,10 +127,26 @@
             }
         },
         {
+            "Key": "98e945d8-2667-4635-b39f-f97667c1feda",
+            "Value": {
+                "id": "4607ba7b-91af-419e-9409-4bb0807e38dd",
+                "resourcePath": "sprites\\player2Sprite\\player2Sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "e4e714e4-a7fd-4ecb-a042-9c6dd91f9696",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "b0b76536-9106-4537-9af8-b08032925303",
             "Value": {
                 "id": "a2de6103-11e2-4f3a-b71d-afa56647a1e8",
-                "resourcePath": "objects\\ground\\ground.yy",
+                "resourcePath": "objects\\wall\\wall.yy",
                 "resourceType": "GMObject"
             }
         },
