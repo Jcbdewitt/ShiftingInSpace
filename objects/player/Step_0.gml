@@ -52,10 +52,10 @@ if (active) {
 
 	if ((place_meeting(x,y+floorPosition,wall)) && (keyboard_check_pressed(vk_space))) {
 		if (gravSwitch) {
-			v_speed = 7.8;
+			v_speed = jumpStrength;
 		}
 		else {
-			v_speed = -7.8;
+			v_speed = -jumpStrength;
 		}
 	}
 
@@ -69,11 +69,11 @@ if (active) {
 	}
 	
 	if (gravSwitch) {
-		grav = -5;
+		grav = -1;
 		floorPosition = -1;
 	}
 	else {
-		grav = 5;
+		grav = 1;
 		floorPosition = 1;
 	}
 }
