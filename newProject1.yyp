@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "09e238c8-fb01-4cb0-9ecc-693d2e0cd97a",
+            "Value": {
+                "id": "a2200d6a-cfaf-4d2f-953c-a6ace8a2449d",
+                "resourcePath": "objects\\bullet\\bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fd60293-eb96-4147-9d98-6908f7b03aeb",
             "Value": {
                 "id": "435733e5-859f-43e0-8152-970ba6f001fb",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "8a77d649-2a45-44c4-ba5e-a64550bca728",
+            "Value": {
+                "id": "0c2113e5-c487-4c41-8813-11a2686651e0",
+                "resourcePath": "sprites\\bulletSprite\\bulletSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8e0ed59c-4c18-4813-a072-c7c5834f7ff6",
             "Value": {
                 "id": "dd320def-d01c-4464-bf3a-9178804cd2f5",
@@ -132,14 +148,6 @@
                 "id": "4607ba7b-91af-419e-9409-4bb0807e38dd",
                 "resourcePath": "sprites\\player2Sprite\\player2Sprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
-            "Value": {
-                "id": "e4e714e4-a7fd-4ecb-a042-9c6dd91f9696",
-                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
-                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
