@@ -25,6 +25,17 @@ if(place_meeting(x,y+v_speed,wall)) {
 v_speed = 0;
 	
 }
+//Door Collision
+if(place_meeting(x+h_speed,y,door)) {
+	
+	while (!place_meeting(x+sign(h_speed),y,door)) {
+		
+		x = x + sign(h_speed);
+		
+	}
+h_speed = 0;
+	
+}
 #endregion
 
 //Update location
@@ -75,6 +86,12 @@ if (active) {
 		}
 		else {
 			v_speed = -jumpStrength;
+		}
+	}
+	
+	if ((place_meeting(x+h_speed,y,door)) && (global.numOfCards > 0)) {
+		with (instance_place(x+h_speed,y,door)) {
+			open = true;
 		}
 	}
 

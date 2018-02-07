@@ -1,4 +1,5 @@
 /// @desc
 if (open) {
-	vspeed = 5;
+	instance_destroy();
+	show_message("DEBUG")
 }

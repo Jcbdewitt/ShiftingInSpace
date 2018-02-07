@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0468a0e8-8c66-4033-90a6-59ff29d765c5",
+            "Value": {
+                "id": "8b4bb26d-c9d9-4f69-905b-90601bb05b91",
+                "resourcePath": "sprites\\keycardSprite\\keycardSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0804766c-b673-4ef3-8ff4-0d2f3f939533",
             "Value": {
                 "id": "e6054fd4-0b15-4994-8af3-2265ed42d371",
@@ -75,6 +83,14 @@
             "Value": {
                 "id": "b875c31f-6ff7-4adf-80a0-f6d65162ba81",
                 "resourcePath": "objects\\door\\door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "30e1b8ef-5d7f-4077-aae3-34a8ccd52ae3",
+            "Value": {
+                "id": "609a4296-6c9e-42cf-b50d-7624e5afcefc",
+                "resourcePath": "objects\\keycard\\keycard.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -172,6 +188,14 @@
                 "id": "3979d4b5-f9f5-4859-9e52-1fe62c4bde5b",
                 "resourcePath": "sprites\\doorSprite\\doorSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "27dd3f97-b108-4088-a729-5c7e078403bf",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {

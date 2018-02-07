@@ -34,15 +34,23 @@ v_speed = v_speed + player.grav;
 //Movement
 if (!player.active) {
 	var move = key_right - key_left;
-
+	
 	h_speed = move * mySpeed;
-
+	
+	//Jump
 	if ((place_meeting(x,y+player.floorPosition,wall)) && (keyboard_check_pressed(vk_space))) {
 		if (player.gravSwitch) {
 			v_speed = jumpStrength;
 		}
 		else {
 			v_speed = -jumpStrength;
+		}
+	}
+	
+	//Checks if has a card open door if so
+	if ((place_meeting(x+h_speed,y,door)) && (global.numOfCards > 0)) {
+		with (instance_place(x+h_speed,y,door)) {
+			open = true;
 		}
 	}
 }
