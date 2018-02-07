@@ -39,10 +39,10 @@ if (!player.active) {
 
 	if ((place_meeting(x,y+player.floorPosition,wall)) && (keyboard_check_pressed(vk_space))) {
 		if (player.gravSwitch) {
-			v_speed = player.jumpStrength;
+			v_speed = jumpStrength;
 		}
 		else {
-			v_speed = -player.jumpStrength;
+			v_speed = -jumpStrength;
 		}
 	}
 }

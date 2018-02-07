@@ -6,3 +6,7 @@ v_speed = 0;
 grav = 1;
 floorPosition = 1;
 jumpStrength = 10;
+abilitySelect = 0;
+numOfAbilites = 2;
+oldX = 0;
+oldY = 0;
