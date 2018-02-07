@@ -25,6 +25,7 @@ if(place_meeting(x,y+v_speed,wall)) {
 v_speed = 0;
 	
 }
+
 //Door Collision
 if(place_meeting(x+h_speed,y,door)) {
 	
@@ -35,6 +36,17 @@ if(place_meeting(x+h_speed,y,door)) {
 	}
 h_speed = 0;
 	
+}
+
+//Player Collision
+if(place_meeting(x+h_speed,y,player2)){
+	
+	while (!place_meeting(x+sign(h_speed),y,player2)) {
+		
+		x = x + sign(h_speed);
+		
+	}
+	h_speed = 0; 
 }
 #endregion
 
@@ -104,9 +116,11 @@ if (active) {
 			case 0:
 				if (gravSwitch) {
 					gravSwitch = false;
+					grav = 1;
 				}
 				else {
 					gravSwitch = true;
+					grav = -1;
 				}
 				break;
 			case 1:
@@ -125,14 +139,6 @@ if (active) {
 			default:
 				show_message("error");
 		}				
-	}
-	
-	//Adjust Gravity depending on direction
-	if (gravSwitch) {
-		grav = -1;
-	}
-	else {
-		grav = 1;
 	}
 }
 #endregion

@@ -9,7 +9,7 @@ if(place_meeting(x+h_speed,y,wall)) {
 		x = x + sign(h_speed);
 		
 	}
-h_speed = 0;	
+	h_speed = 0;	
 }
 
 //Vertical Collision
@@ -20,7 +20,29 @@ if(place_meeting(x,y+v_speed,wall)) {
 		y = y + sign(v_speed);
 			
 	}
-v_speed = 0;	
+	v_speed = 0;	
+}
+
+//Door Collision
+if(place_meeting(x+h_speed,y,door)) {
+	
+	while (!place_meeting(x+sign(h_speed),y,door)) {
+		
+		x = x + sign(h_speed);
+		
+	}
+	h_speed = 0;
+}
+
+//Player Collision
+if(place_meeting(x+h_speed,y,player)){
+	
+	while (!place_meeting(x+sign(h_speed),y,player)) {
+		
+		x = x + sign(h_speed);
+		
+	}
+	h_speed = 0; 
 }
 #endregion
 
@@ -38,7 +60,7 @@ if (!player.active) {
 	h_speed = move * mySpeed;
 	
 	//Jump
-	if ((place_meeting(x,y+player.floorPosition,wall)) && (keyboard_check_pressed(vk_space))) {
+	if ((place_meeting(x,y+player.grav,wall)) && (keyboard_check_pressed(vk_space))) {
 		if (player.gravSwitch) {
 			v_speed = jumpStrength;
 		}
