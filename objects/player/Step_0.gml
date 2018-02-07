@@ -76,11 +76,13 @@ if (keyboard_check_pressed(ord("Q"))) {
 
 #region If has control
 if (active) {
+	//Calculate movement
 	var move = key_right - key_left;
 
 	h_speed = move * mySpeed;
 
-	if ((place_meeting(x,y+floorPosition,wall)) && (keyboard_check_pressed(vk_space))) {
+	//Jump
+	if ((place_meeting(x,y+grav,wall)) && (keyboard_check_pressed(vk_space))) {
 		if (gravSwitch) {
 			v_speed = jumpStrength;
 		}
@@ -89,12 +91,14 @@ if (active) {
 		}
 	}
 	
-	if ((place_meeting(x+h_speed,y,door)) && (global.numOfCards > 0)) {
+	//Open door when approached if have a keycard
+	if ((place_meeting(x+h_speed,y,door)) && (numOfCards > 0)) {
 		with (instance_place(x+h_speed,y,door)) {
 			open = true;
 		}
 	}
 
+	//Switch through the different abilitys that player has
 	if (keyboard_check_pressed(vk_shift)){
 		switch (abilitySelect) {
 			case 0:
@@ -123,13 +127,12 @@ if (active) {
 		}				
 	}
 	
+	//Adjust Gravity depending on direction
 	if (gravSwitch) {
 		grav = -1;
-		floorPosition = -1;
 	}
 	else {
 		grav = 1;
-		floorPosition = 1;
 	}
 }
 #endregion

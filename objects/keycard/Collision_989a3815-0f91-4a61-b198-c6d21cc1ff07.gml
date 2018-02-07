@@ -1,3 +1,3 @@
 /// @desc 
 instance_destroy();
-global.numOfCards++;
+player2.numOfCards++;

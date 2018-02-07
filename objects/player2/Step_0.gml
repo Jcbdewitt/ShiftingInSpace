@@ -47,11 +47,11 @@ if (!player.active) {
 		}
 	}
 	
-	//Checks if has a card open door if so
-	if ((place_meeting(x+h_speed,y,door)) && (global.numOfCards > 0)) {
-		with (instance_place(x+h_speed,y,door)) {
-			open = true;
-		}
+	//Gives key cards to other player
+	if ((place_meeting(x+h_speed,y,player)) && (numOfCards > 0)) {
+
+		player.numOfCards += numOfCards;
+
 	}
 }
 #endregion
