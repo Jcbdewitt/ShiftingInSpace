@@ -74,7 +74,7 @@
             "Key": "22c3a356-a0a3-40b1-9e18-8e6b271b4b40",
             "Value": {
                 "id": "e6445abf-86f4-4bba-be61-99d6c0cfb78c",
-                "resourcePath": "sprites\\sprite6\\sprite6.yy",
+                "resourcePath": "sprites\\playerSpriteRunning\\playerSpriteRunning.yy",
                 "resourceType": "GMSprite"
             }
         },

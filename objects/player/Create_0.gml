@@ -1,3 +1,4 @@
+image_speed = 0;
 active = true;
 gravSwitch = false;
 mySpeed = 5;

@@ -142,3 +142,20 @@ if (active) {
 	}
 }
 #endregion
+
+#region Animation
+
+if (h_speed == 0) {
+	image_speed = 0
+	sprite_index = playerSprite			
+}
+if (h_speed != 0) {
+	image_speed = 1
+	sprite_index = playerSpriteRunning
+}
+
+//Flip sides
+if (h_speed != 0) image_xscale = sign(h_speed)
+
+
+#endregion
