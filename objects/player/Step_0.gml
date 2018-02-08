@@ -48,6 +48,15 @@ if(place_meeting(x+h_speed,y,player2)){
 	}
 	h_speed = 0; 
 }
+if(place_meeting(x,y+v_speed,player2)){
+	
+	while (!place_meeting(x,y+sign(+v_speed),player2)) {
+		
+		x = x + sign(v_speed);
+		
+	}
+	v_speed = 0; 
+}
 #endregion
 
 //Update location
@@ -145,17 +154,24 @@ if (active) {
 
 #region Animation
 
-if (h_speed == 0) {
-	image_speed = 0
-	sprite_index = playerSprite			
+if (!place_meeting(x,y+grav,wall)) {
+	sprite_index = playerSpriteInAir;
 }
-if (h_speed != 0) {
-	image_speed = 1
-	sprite_index = playerSpriteRunning
+else {
+	if (h_speed == 0) {
+		image_speed = 0;
+		sprite_index = playerSprite;		
+	}
+	if (h_speed != 0) {
+		image_speed = 1;
+		sprite_index = playerSpriteRunning;
+	}
 }
 
-//Flip sides
-if (h_speed != 0) image_xscale = sign(h_speed)
+//Flip sides on ground
+if (h_speed != 0) image_xscale = sign(h_speed);
 
+//Flip sides depending on grav
+image_yscale = sign(grav);
 
 #endregion

@@ -44,6 +44,15 @@ if(place_meeting(x+h_speed,y,player)){
 	}
 	h_speed = 0; 
 }
+if(place_meeting(x,y+v_speed,player)){
+	
+	while (!place_meeting(x,y+sign(+v_speed),player)) {
+		
+		x = x + sign(v_speed);
+		
+	}
+	v_speed = 0; 
+}
 #endregion
 
 //Update location

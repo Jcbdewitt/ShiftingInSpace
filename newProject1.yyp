@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "c33eb0ea-db5f-4c50-9dca-1d9679121546",
+            "Value": {
+                "id": "8d0b9f5d-cbf3-4c02-9744-29a03c2567e4",
+                "resourcePath": "sprites\\playerSpriteInAir\\playerSpriteInAir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c58bca41-ba80-43d0-8a27-8b06a6f265ef",
             "Value": {
                 "id": "02dc74c9-3091-4450-b13b-6e6b63305b36",
