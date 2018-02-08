@@ -1,7 +1,6 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 #region Collisions
-
 //Horizontal Collision
 if(place_meeting(x+h_speed,y,wall)) {
 	

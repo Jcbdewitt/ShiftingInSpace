@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "17a92dc5-7d6b-447e-b5c1-f287b973fda8",
+            "Value": {
+                "id": "4c432c52-dcd5-4423-817f-f3a9cc53affd",
+                "resourcePath": "sprites\\smashableWallSprite\\smashableWallSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e41f5c9-077f-464d-9ee7-540f59ade839",
             "Value": {
                 "id": "b0135288-63db-4ce6-be86-6f61a61a9112",
