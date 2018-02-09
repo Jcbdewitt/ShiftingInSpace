@@ -43,6 +43,18 @@ if(place_meeting(x+h_speed,y,door)) {
 	}
 	h_speed = 0;
 }
+
+//Smashable Wall Collision
+if(place_meeting(x+h_speed,y,smashableWall)) {
+	//sign returns if a varible is positive(1) or negative(-1)
+	while (!place_meeting(x+sign(h_speed),y,smashableWall)) {
+		
+		x = x + sign(h_speed);
+			
+	}
+	h_speed = 0;
+	
+}
 #endregion
 
 //Update location
@@ -84,13 +96,15 @@ if (!player.active) {
 			}
 		}
 	}
-	
+	/*
 	//Gives key cards to other player
 	if ((place_meeting(x+h_speed,y,player)) && (numOfCards > 0)) {
 
 		player.numOfCards += numOfCards;
+		numOfCards--;
 
 	}
+	*/
 }
 #endregion
 
