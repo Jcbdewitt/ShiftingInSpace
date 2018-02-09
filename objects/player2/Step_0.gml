@@ -93,6 +93,9 @@ if (!player.active) {
 				with (instance_place(x,y,smashableWall)) {
 					instance_destroy();		
 				}
+				with (instance_place(x,y,crate)) {
+					h_speed = 8;
+				}
 			}
 		}
 	}

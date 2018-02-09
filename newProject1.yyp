@@ -218,7 +218,7 @@
             "Key": "89768510-0a8e-4b50-8000-cc1a20d429eb",
             "Value": {
                 "id": "1bcf3dd7-2a2e-4ff5-b583-256bdad18d03",
-                "resourcePath": "sprites\\crate\\crate.yy",
+                "resourcePath": "sprites\\crateSprite\\crateSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "6c0bc025-98c8-4392-9170-e525a583a7f5",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a6145cdb-dc6c-4319-b910-9eb9a2627037",
+            "Value": {
+                "id": "f2e2d95b-e494-4e0f-a138-828e9bcd6eed",
+                "resourcePath": "objects\\crate\\crate.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -2,7 +2,7 @@
     "id": "89768510-0a8e-4b50-8000-cc1a20d429eb",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "crate",
+    "name": "crateSprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,
