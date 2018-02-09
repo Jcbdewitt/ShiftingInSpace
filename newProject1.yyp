@@ -151,11 +151,35 @@
             }
         },
         {
+            "Key": "59b2ba22-b767-4787-8ce9-66f12c931b11",
+            "Value": {
+                "id": "34cc32fc-94aa-4a13-a9d5-e68b029a465c",
+                "resourcePath": "sprites\\buttonSprite\\buttonSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60616248-e8d3-4c98-bd12-2b5cd3177c30",
             "Value": {
                 "id": "d6e1e25a-9082-4a35-a72b-1c72b94365b6",
                 "resourcePath": "rooms\\level01\\level01.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "70a84705-7f4a-48f6-b87b-8dc20ea17bf5",
+            "Value": {
+                "id": "92e011a4-fdfb-41eb-9b6d-b6a5cc5b32fa",
+                "resourcePath": "sounds\\titleMusic00\\titleMusic00.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "78474476-6989-43d0-8d21-a21d73f2d625",
+            "Value": {
+                "id": "0a7e38b2-e861-4247-bbbd-db51681d26be",
+                "resourcePath": "sounds\\titleMusic01\\titleMusic01.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -191,6 +215,14 @@
             }
         },
         {
+            "Key": "94d22043-8d89-428a-96ff-ec3ae60006f2",
+            "Value": {
+                "id": "f2baba13-8c85-4785-8071-be02b6e8ca1a",
+                "resourcePath": "rooms\\titleScreen\\titleScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "98e945d8-2667-4635-b39f-f97667c1feda",
             "Value": {
                 "id": "4607ba7b-91af-419e-9409-4bb0807e38dd",
@@ -199,19 +231,19 @@
             }
         },
         {
+            "Key": "9c9f8d82-c6be-48d3-a860-2f20b2ba20ee",
+            "Value": {
+                "id": "5b5211d5-a285-4e90-a6fc-c639c858212f",
+                "resourcePath": "sounds\\countdownMusic\\countdownMusic.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9ca4c65f-ef40-4a8d-8132-fdae6683ebe1",
             "Value": {
                 "id": "3979d4b5-f9f5-4859-9e52-1fe62c4bde5b",
                 "resourcePath": "sprites\\doorSprite\\doorSprite.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
-            "Value": {
-                "id": "27dd3f97-b108-4088-a729-5c7e078403bf",
-                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
-                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -252,6 +284,14 @@
                 "id": "02dc74c9-3091-4450-b13b-6e6b63305b36",
                 "resourcePath": "views\\c58bca41-ba80-43d0-8a27-8b06a6f265ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c88e793c-6470-402f-883e-8185531bf91f",
+            "Value": {
+                "id": "5b81b0a4-7850-404e-bbaa-2068ca650dd5",
+                "resourcePath": "objects\\buttonPlay\\buttonPlay.yy",
+                "resourceType": "GMObject"
             }
         },
         {
