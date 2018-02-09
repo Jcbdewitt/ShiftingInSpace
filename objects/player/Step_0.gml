@@ -131,7 +131,7 @@ if (active) {
 					oldX = x;
 					oldY = y;
 					x = player.oldX;
-					y = player.oldY;
+					y = player.oldY - 40;
 					other.x = oldX;
 					other.y = oldY;
 				}

@@ -74,6 +74,7 @@ if (!player.active) {
 		h_speed = 0;
 		v_speed = 0;
 		if (hitboxTimer < 0) {
+			hitboxTimer = hitboxTimerReset
 			with (instance_create_layer(x,y,player2,hitbox)){
 				image_xscale = other.image_xscale;
 				image_yscale = other.image_yscale;
@@ -91,4 +92,12 @@ if (!player.active) {
 
 	}
 }
+#endregion
+
+#region Animation
+//Flip sides on ground
+if (h_speed != 0) image_xscale = sign(h_speed);
+
+//Flip sides depending on grav
+image_yscale = sign(player.grav);
 #endregion
