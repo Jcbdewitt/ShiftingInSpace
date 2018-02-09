@@ -7,6 +7,7 @@ v_speed = 0;
 grav = 1;
 oldX = 0;
 oldY = 0;
+controller = 0;
 jumpStrength = 20;
 abilitySelect = 0;
 numOfAbilites = 2;

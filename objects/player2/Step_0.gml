@@ -1,5 +1,15 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
+if (key_left) || (key_right){
+	controller = 0
+}
+//Checks deadzone on analog stick
+if (abs(gamepad_axis_value(0,gp_axislh)) > 0.2) {
+	//Replaces keyboard buttons for analog stick
+	key_left = abs(min(gamepad_axis_value (0,gp_axislh),0))
+	key_right = max(gamepad_axis_value(0,gp_axislh),0)
+	controller = 1
+}
 #region Collisions
 //Horizontal Collision
 if(place_meeting(x+h_speed,y,wall)) {
@@ -33,26 +43,6 @@ if(place_meeting(x+h_speed,y,door)) {
 	}
 	h_speed = 0;
 }
-
-//Player Collision
-if(place_meeting(x+h_speed,y,player)){
-	
-	while (!place_meeting(x+sign(h_speed),y,player)) {
-		
-		x = x + sign(h_speed);
-		
-	}
-	h_speed = 0; 
-}
-if(place_meeting(x,y+v_speed,player)){
-	
-	while (!place_meeting(x,y+sign(+v_speed),player)) {
-		
-		x = x + sign(v_speed);
-		
-	}
-	v_speed = 0; 
-}
 #endregion
 
 //Update location
@@ -69,7 +59,7 @@ if (!player.active) {
 	h_speed = move * mySpeed;
 	
 	//Jump
-	if ((place_meeting(x,y+player.grav,wall)) && (keyboard_check_pressed(vk_space))) {
+	if (((place_meeting(x,y+player.grav,wall)) && ((keyboard_check_pressed(vk_space)) || (gamepad_button_check_pressed(0,gp_face1))))) {
 		if (player.gravSwitch) {
 			v_speed = jumpStrength;
 		}
