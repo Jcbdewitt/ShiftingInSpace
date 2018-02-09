@@ -48,11 +48,13 @@ if(place_meeting(x+h_speed,y,door)) {
 //Update location
 x = x + h_speed;
 y = y + v_speed;
+
 //Turns on gravity
 v_speed = v_speed + player.grav;
 
+hitboxTimer = hitboxTimer - 1;
+
 #region If has control
-//Movement
 if (!player.active) {
 	var move = key_right - key_left;
 	
@@ -65,6 +67,20 @@ if (!player.active) {
 		}
 		else {
 			v_speed = -jumpStrength;
+		}
+	}
+	
+	if (keyboard_check_pressed(vk_shift)){
+		h_speed = 0;
+		v_speed = 0;
+		if (hitboxTimer < 0) {
+			with (instance_create_layer(x,y,player2,hitbox)){
+				image_xscale = other.image_xscale;
+				image_yscale = other.image_yscale;
+				with (instance_place(x,y,smashableWall)) {
+					instance_destroy();		
+				}
+			}
 		}
 	}
 	

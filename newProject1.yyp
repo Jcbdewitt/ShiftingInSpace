@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "5bc7de56-f679-4fcd-8906-ddd4ae392705",
+            "Value": {
+                "id": "cfb87b24-cf5b-43cc-afa7-248ec455f3ad",
+                "resourcePath": "objects\\smashableWall\\smashableWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60616248-e8d3-4c98-bd12-2b5cd3177c30",
             "Value": {
                 "id": "d6e1e25a-9082-4a35-a72b-1c72b94365b6",
@@ -172,6 +180,14 @@
                 "id": "92e011a4-fdfb-41eb-9b6d-b6a5cc5b32fa",
                 "resourcePath": "sounds\\titleMusic00\\titleMusic00.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "72def5b3-a290-4c7a-9f30-c3d15fcf63b1",
+            "Value": {
+                "id": "e05393da-0bc7-436f-bcb8-3cec1e66f1bd",
+                "resourcePath": "sprites\\hitboxSprite\\hitboxSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -244,6 +260,14 @@
                 "id": "3979d4b5-f9f5-4859-9e52-1fe62c4bde5b",
                 "resourcePath": "sprites\\doorSprite\\doorSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "6c0bc025-98c8-4392-9170-e525a583a7f5",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -340,6 +364,14 @@
                 "id": "75ad29d7-aa35-442b-944c-aee1fe014f7a",
                 "resourcePath": "views\\f02b1548-9bce-4cf3-94f1-6c687c9d5a81.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f6055666-e2bd-4a47-9e08-814bc15a625f",
+            "Value": {
+                "id": "c00756d9-5214-4321-8324-2a2cb50c91a9",
+                "resourcePath": "objects\\hitbox\\hitbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
