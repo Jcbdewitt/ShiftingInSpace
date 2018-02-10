@@ -11,4 +11,5 @@ controller = 0;
 jumpStrength = 20;
 abilitySelect = 0;
 numOfAbilites = 2;
-player.numOfCards = 0;
+numOfCards = 0;
+roomIn = 1;

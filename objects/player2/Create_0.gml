@@ -7,3 +7,4 @@ oldY = 0;
 hitboxTimer = 0;
 hitboxTimerReset = 5;
 numOfCards = 0;
+roomIn = 1;
