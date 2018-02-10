@@ -151,10 +151,12 @@ if (active) {
 				if (gravSwitch) {
 					gravSwitch = false;
 					grav = 1;
+					switchFix = switchFix * -1;
 				}
 				else {
 					gravSwitch = true;
 					grav = -1;
+					switchFix = switchFix * -1;
 				}
 				break;
 			case 1:
@@ -165,7 +167,7 @@ if (active) {
 					oldX = x;
 					oldY = y;
 					x = player.oldX;
-					y = player.oldY - 40;
+					y = player.oldY + player.switchFix;
 					other.x = oldX;
 					other.y = oldY;
 				}

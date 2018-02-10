@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "4c8e7665-a94e-4beb-aafa-4099bbb42d46",
+            "Value": {
+                "id": "0c0b4cc5-fa6b-4e80-9fcf-680ffd88156d",
+                "resourcePath": "sprites\\guiSprite\\guiSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5164c982-1c6d-4306-b38e-8d72297667e5",
             "Value": {
                 "id": "90a74acd-775c-4bb2-b570-a4440aa79783",

@@ -13,3 +13,4 @@ abilitySelect = 0;
 numOfAbilites = 2;
 numOfCards = 0;
 roomIn = 1;
+switchFix = -25;
