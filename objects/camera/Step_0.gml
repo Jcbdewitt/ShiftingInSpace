@@ -1,23 +1,23 @@
 //Change camera depending on what room the player you are controling is in
 if (player.active){
-	xTo = (playerRoom - 1) * 1024 + 512; 
-	if (player.x > playerRoom * 1024) {
-		xTo = playerRoom * 1024 + 512;
+	xTo = (playerRoom - 1) * roomLength + roomLengthHalf; 
+	if (player.x > playerRoom * roomLength) {
+		xTo = playerRoom * roomLength + roomLengthHalf;
 		playerRoom++;
 	}
-	else if (player.x < (playerRoom - 1) * 1024) {
-		xTo = (playerRoom - 2) * 1024 + 512;
+	else if (player.x < (playerRoom - 1) * roomLength) {
+		xTo = (playerRoom - 2) * roomLength + roomLengthHalf;
 		playerRoom--;
 	}
 }
 else{
-	xTo = (player2Room - 1) * 1024 + 512; 
-	if (player2.x > player2Room * 1024) {
-		xTo = player2Room * 1024 + 512;
+	xTo = (player2Room - 1) * roomLength + roomLengthHalf; 
+	if (player2.x > player2Room * roomLength) {
+		xTo = player2Room * roomLength + roomLengthHalf;
 		player2Room++;
 	}
-	else if (player2.x < (player2Room - 1) * 1024) {
-		xTo = (player2Room - 2) * 1024 + 512;
+	else if (player2.x < (player2Room - 1) * roomLength) {
+		xTo = (player2Room - 2) * roomLength + roomLengthHalf;
 		player2Room--;
 	}
 }
