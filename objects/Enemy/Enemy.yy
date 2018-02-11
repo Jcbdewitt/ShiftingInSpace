@@ -1,41 +1,31 @@
 {
-    "id": "0804766c-b673-4ef3-8ff4-0d2f3f939533",
+    "id": "fc50b4b3-39a5-4acc-808d-cb0ecddd01dd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "player",
+    "name": "Enemy",
     "eventList": [
         {
-            "id": "9d54688b-f270-4055-9e79-a85f7d6cb055",
+            "id": "04e68c18-4cb7-4449-b0ab-5e8d9de90916",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0804766c-b673-4ef3-8ff4-0d2f3f939533"
+            "m_owner": "fc50b4b3-39a5-4acc-808d-cb0ecddd01dd"
         },
         {
-            "id": "8133e760-8fde-4577-ada7-6a5b56932915",
+            "id": "d437c799-4844-441d-99cb-f1373c2524d2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "0804766c-b673-4ef3-8ff4-0d2f3f939533"
-        },
-        {
-            "id": "36607c33-f97d-425d-96ed-2d1fdf07d4df",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 80,
-            "eventtype": 9,
-            "m_owner": "0804766c-b673-4ef3-8ff4-0d2f3f939533"
+            "m_owner": "fc50b4b3-39a5-4acc-808d-cb0ecddd01dd"
         }
     ],
-    "maskSpriteId": "8e0ed59c-4c18-4813-a072-c7c5834f7ff6",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -52,7 +42,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
+    "solid": false,
     "spriteId": "8e0ed59c-4c18-4813-a072-c7c5834f7ff6",
     "visible": true
 }

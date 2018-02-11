@@ -413,6 +413,14 @@
                 "resourcePath": "views\\f726725e-2395-4614-a455-113f22147955.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fc50b4b3-39a5-4acc-808d-cb0ecddd01dd",
+            "Value": {
+                "id": "3be8dfd0-56f5-4e26-b998-dadd625161e5",
+                "resourcePath": "objects\\Enemy\\Enemy.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
