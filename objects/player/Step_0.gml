@@ -1,5 +1,9 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
+key_jump = (keyboard_check_pressed(vk_space)) || (gamepad_button_check_pressed(0,gp_face1));
+key_abilityUse = (keyboard_check_pressed(vk_shift)) || (gamepad_button_check_pressed(0,gp_face3));
+key_switchRight = (keyboard_check_pressed(ord("E"))) || (gamepad_button_check_pressed(0,gp_face2));
+key_switchLeft = 
 if (key_left) || (key_right){
 	controller = 0
 }
@@ -82,6 +86,29 @@ if(place_meeting(x,y+v_speed,crate)) {
 	v_speed = 0;
 	
 }
+//Horizontal Collision with button
+if(place_meeting(x+h_speed,y,button)) {
+	
+	while (!place_meeting(x+sign(h_speed),y,button)) {
+		
+		x = x + sign(h_speed);
+		
+	}
+	h_speed = 0;
+	
+}
+
+//Vertical Collision with button
+if(place_meeting(x,y+v_speed,button)) {
+	
+	while (!place_meeting(x,y+sign(v_speed),button)) {
+		
+		y = y + sign(v_speed);
+			
+	}
+	v_speed = 0;
+	
+}
 #endregion
 
 //Update location
@@ -106,13 +133,13 @@ if ((keyboard_check_pressed(vk_tab)) || (gamepad_button_check_pressed(0,gp_face4
 		}		
 }
 //Ability switcher
-if ((keyboard_check_pressed(ord("E"))) || (gamepad_button_check_pressed(0,gp_face2))){
+if (key_switchRight) {
 	abilitySelect++;
 	if (abilitySelect > numOfAbilites - 1) {
 		abilitySelect = 0;
 	}
 }
-if (keyboard_check_pressed(ord("Q"))) {
+if (key_switchLeft) {
 	abilitySelect--;
 	if (abilitySelect < 0) {
 		abilitySelect = 1
@@ -128,7 +155,7 @@ if (active) {
 	h_speed = move * mySpeed;
 
 	//Jump
-	if ((place_meeting(x,y+grav,wall)) && (keyboard_check_pressed(vk_space) || (gamepad_button_check_pressed(0,gp_face1)))) {
+	if ((place_meeting(x,y+grav,wall)) && (key_jump)) {
 		if (gravSwitch) {
 			v_speed = jumpStrength;
 		}
@@ -145,7 +172,7 @@ if (active) {
 	}
 
 	//Switch through the different abilitys that player has
-	if ((keyboard_check_pressed(vk_shift)) || (gamepad_button_check_pressed(0,gp_face3))){
+	if (key_abilityUse){
 		switch (abilitySelect) {
 			case 0:
 				if (gravSwitch) {
@@ -181,7 +208,7 @@ if (active) {
 
 #region Animation
 
-if (!place_meeting(x,y+grav,wall)) {
+if ((!place_meeting(x,y+grav,wall)) && (!place_meeting(x,y+grav,button))) {
 	sprite_index = playerSpriteInAir;
 }
 else {

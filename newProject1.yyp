@@ -162,7 +162,7 @@
             "Key": "59b2ba22-b767-4787-8ce9-66f12c931b11",
             "Value": {
                 "id": "34cc32fc-94aa-4a13-a9d5-e68b029a465c",
-                "resourcePath": "sprites\\buttonSprite\\buttonSprite.yy",
+                "resourcePath": "sprites\\buttonplaySprite\\buttonplaySprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "8655f810-f3a3-4b2b-b067-e9be07060377",
+            "Value": {
+                "id": "cad699e2-a918-46d5-83ab-dac01c085df1",
+                "resourcePath": "sprites\\buttonDownSprite\\buttonDownSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89768510-0a8e-4b50-8000-cc1a20d429eb",
             "Value": {
                 "id": "1bcf3dd7-2a2e-4ff5-b583-256bdad18d03",
@@ -244,6 +252,14 @@
                 "id": "dd320def-d01c-4464-bf3a-9178804cd2f5",
                 "resourcePath": "sprites\\playerSprite\\playerSprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9000568e-7de2-4f63-baa6-b1bd45fc2cb2",
+            "Value": {
+                "id": "234be822-bba0-4b9b-92e2-51fb2252e0d7",
+                "resourcePath": "objects\\button\\button.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -324,6 +340,14 @@
                 "id": "4f7dc841-b6f1-4626-8876-a7372ccb22a2",
                 "resourcePath": "views\\be920291-e711-4294-8b1f-02d19551111f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c10193bf-7c20-45e8-bd33-1b496cdda993",
+            "Value": {
+                "id": "f65f50bb-bc24-4332-bd6d-b6ceed17ad69",
+                "resourcePath": "sprites\\buttonUpSprite\\buttonUpSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
