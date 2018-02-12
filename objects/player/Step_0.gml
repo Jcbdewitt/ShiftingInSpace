@@ -3,7 +3,7 @@ key_right = keyboard_check(ord("D"));
 key_jump = (keyboard_check_pressed(vk_space)) || (gamepad_button_check_pressed(0,gp_face1));
 key_abilityUse = (keyboard_check_pressed(vk_shift)) || (gamepad_button_check_pressed(0,gp_face3));
 key_switchRight = (keyboard_check_pressed(ord("E"))) || (gamepad_button_check_pressed(0,gp_face2));
-key_switchLeft = 
+key_switchLeft = (keyboard_check_pressed(ord("Q")));
 if (key_left) || (key_right){
 	controller = 0
 }
