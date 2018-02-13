@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "050d1be8-21f0-4af5-a4e4-92686e77d639",
+            "Value": {
+                "id": "4301a64d-ac2d-4ada-a0ab-b019b142720f",
+                "resourcePath": "objects\\countdown\\countdown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0804766c-b673-4ef3-8ff4-0d2f3f939533",
             "Value": {
                 "id": "e6054fd4-0b15-4994-8af3-2265ed42d371",
@@ -364,6 +372,14 @@
                 "id": "5b81b0a4-7850-404e-bbaa-2068ca650dd5",
                 "resourcePath": "objects\\buttonPlay\\buttonPlay.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8eb7209-d2f8-41f3-836d-7810e4eb0c32",
+            "Value": {
+                "id": "f1067766-85a4-4e3c-aba0-4a7689386e22",
+                "resourcePath": "sprites\\countdownAnim\\countdownAnim.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
