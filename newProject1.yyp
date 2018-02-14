@@ -383,14 +383,6 @@
             }
         },
         {
-            "Key": "d6f92490-c659-4ffe-bc15-b21f078c7bf6",
-            "Value": {
-                "id": "b9d655f9-fc58-4c6a-9742-03e5364e5f02",
-                "resourcePath": "sprites\\countdownAnim\\countdownAnim.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "dab8e66e-17ed-40cc-9769-a98d85aac7a7",
             "Value": {
                 "id": "0e5a63a9-ad58-46ee-a59f-2f3cec732b2e",
