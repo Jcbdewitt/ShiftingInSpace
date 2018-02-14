@@ -375,14 +375,6 @@
             }
         },
         {
-            "Key": "c8eb7209-d2f8-41f3-836d-7810e4eb0c32",
-            "Value": {
-                "id": "f1067766-85a4-4e3c-aba0-4a7689386e22",
-                "resourcePath": "sprites\\countdownAnim\\countdownAnim.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "2424be02-5c50-4097-82f8-c3402aa5161b",
@@ -396,6 +388,14 @@
                 "id": "8bcaf3b2-98e6-4e38-bf3c-f0eec15f2d8d",
                 "resourcePath": "views\\d48b4d6d-ac39-438c-a8d5-cbb7bd8586c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6f92490-c659-4ffe-bc15-b21f078c7bf6",
+            "Value": {
+                "id": "b9d655f9-fc58-4c6a-9742-03e5364e5f02",
+                "resourcePath": "sprites\\countdownAnim\\countdownAnim.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
