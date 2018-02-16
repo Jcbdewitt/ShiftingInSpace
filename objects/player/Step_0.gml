@@ -177,11 +177,13 @@ if (active) {
 			case 0:
 				if (gravSwitch) {
 					gravSwitch = false;
+					audio_play_sound(gravityNormal, 1, false);
 					grav = 1;
 					switchFix = switchFix * -1;
 				}
 				else {
 					gravSwitch = true;
+					audio_play_sound(gravityInvert, 1, false);
 					grav = -1;
 					switchFix = switchFix * -1;
 				}

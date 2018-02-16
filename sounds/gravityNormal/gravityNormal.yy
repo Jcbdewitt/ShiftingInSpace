@@ -1,14 +1,14 @@
 {
-    "id": "78474476-6989-43d0-8d21-a21d73f2d625",
+    "id": "540f775d-6aae-4890-b1e6-904a5de04d1f",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "titleMusic01",
+    "name": "gravityNormal",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,
     "preload": false,
     "sampleRate": 44100,
-    "type": 1,
-    "volume": 0.35
+    "type": 0,
+    "volume": 1
 }

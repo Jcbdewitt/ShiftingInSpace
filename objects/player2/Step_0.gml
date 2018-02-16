@@ -88,6 +88,7 @@ if (!player.active) {
 		if (hitboxTimer < 0) {
 			hitboxTimer = hitboxTimerReset
 			with (instance_create_layer(x,y,player2,hitbox)){
+				audio_play_sound(punch, 1, false);
 				image_xscale = other.image_xscale;
 				image_yscale = other.image_yscale;
 				with (instance_place(x,y,smashableWall)) {
