@@ -2,7 +2,7 @@
     "id": "9be89f71-2540-40dd-aab6-9944e44743ab",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "Player2SpriteInAir",
+    "name": "player2SpriteInAir",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -19,47 +19,44 @@ if (!player.active) {
 	
 	jump();
 	
-	if (key_abilityUse){
-		h_speed = 0;
-		v_speed = 0;
-		if (hitboxTimer < 0) {
-			hitboxTimer = hitboxTimerReset
-			with (instance_create_layer(x,y,player2,hitbox)){
-				image_xscale = other.image_xscale;
-				image_yscale = other.image_yscale;
-				with (instance_place(x,y,smashableWall)) {
-					instance_destroy();		
-				}
-				with (instance_place(x,y,crate)) {
-					h_speed = 8;
-				}
+	if ((key_abilityUse) && (hitboxTimer < 0)){
+		hitboxTimer = hitboxTimerReset;
+		v_speed = -15;
+		pound = true;
+		//show_message("DEBUG")
+	}
+	if ((sprite_index == player2SpriteAttack) && ((image_index >= 2) && (3 >= image_index))) {
+		with (instance_create_layer(x,y,player2,hitbox)){
+				
+			image_xscale = other.image_xscale;
+			image_yscale = other.image_yscale;
+			with (instance_place(x,y,smashableWall)) {
+				instance_destroy();		
 			}
 		}
+		pound = false;
 	}
-	/*
-	//Gives key cards to other player
-	if ((place_meeting(x+h_speed,y,player)) && (numOfCards > 0)) {
-
-		player.numOfCards += numOfCards;
-		numOfCards--;
-
-	}
-	*/
 }
 #endregion
 
 #region Animation
-if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button))) {
-	sprite_index = Player2SpriteInAir;
+if (pound) {
+	sprite_index = player2SpriteAttack;
+	image_speed = .85;
 }
 else {
-	if (h_speed == 0) {
-		image_speed = 0;
-		sprite_index = player2Sprite;		
+	if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button))) {
+		sprite_index = player2SpriteInAir;
 	}
-	if (h_speed != 0) {
-		image_speed = 1;
-		sprite_index = Player2SpriteWalk;
+	else {
+		if (h_speed == 0) {
+			image_speed = 0;
+			sprite_index = player2Sprite;		
+		}
+		if (h_speed != 0) {
+			image_speed = 1;
+			sprite_index = player2SpriteWalk;
+		}
 	}
 }
 

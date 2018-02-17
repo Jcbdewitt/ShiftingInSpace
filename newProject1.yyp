@@ -114,7 +114,7 @@
             "Key": "2faa9a24-8be7-4b6c-b8ea-d9fb1d9bc2ed",
             "Value": {
                 "id": "51f9ea6f-cb40-47e2-b20f-8cd9e08316f9",
-                "resourcePath": "sprites\\Player2SpriteWalk\\Player2SpriteWalk.yy",
+                "resourcePath": "sprites\\player2SpriteWalk\\player2SpriteWalk.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +258,7 @@
             "Key": "7db1b11f-901a-45e0-829d-05dfef1cb852",
             "Value": {
                 "id": "4f8a6567-07fa-481f-973b-f298757600b6",
-                "resourcePath": "sprites\\Player2SpriteAttack\\Player2SpriteAttack.yy",
+                "resourcePath": "sprites\\player2SpriteAttack\\player2SpriteAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +362,7 @@
             "Key": "9be89f71-2540-40dd-aab6-9944e44743ab",
             "Value": {
                 "id": "d911cc29-2903-4f11-80ad-15394dba6461",
-                "resourcePath": "sprites\\Player2SpriteInAir\\Player2SpriteInAir.yy",
+                "resourcePath": "sprites\\player2SpriteInAir\\player2SpriteInAir.yy",
                 "resourceType": "GMSprite"
             }
         },
