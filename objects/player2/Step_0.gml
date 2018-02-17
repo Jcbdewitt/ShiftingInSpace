@@ -1,68 +1,13 @@
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-if (key_left) || (key_right){
-	controller = 0
-}
-//Checks deadzone on analog stick
-if (abs(gamepad_axis_value(0,gp_axislh)) > 0.2) {
-	//Replaces keyboard buttons for analog stick
-	key_left = abs(min(gamepad_axis_value (0,gp_axislh),0))
-	key_right = max(gamepad_axis_value(0,gp_axislh),0)
-	controller = 1
-}
-#region Collisions
-//Horizontal Collision
-if(place_meeting(x+h_speed,y,wall)) {
-	
-	while (!place_meeting(x+sign(h_speed),y,wall)) {
-		
-		x = x + sign(h_speed);
-		
-	}
-	h_speed = 0;	
-}
+playerInput();
 
-//Vertical Collision
-if(place_meeting(x,y+v_speed,wall)) {
-	//sign returns if a varible is positive(1) or negative(-1)
-	while (!place_meeting(x,y+sign(v_speed),wall)) {
-		
-		y = y + sign(v_speed);
-			
-	}
-	v_speed = 0;	
-}
-
-//Door Collision
-if(place_meeting(x+h_speed,y,door)) {
-	
-	while (!place_meeting(x+sign(h_speed),y,door)) {
-		
-		x = x + sign(h_speed);
-		
-	}
-	h_speed = 0;
-}
-
-//Smashable Wall Collision
-if(place_meeting(x+h_speed,y,smashableWall)) {
-	//sign returns if a varible is positive(1) or negative(-1)
-	while (!place_meeting(x+sign(h_speed),y,smashableWall)) {
-		
-		x = x + sign(h_speed);
-			
-	}
-	h_speed = 0;
-	
-}
-#endregion
+collisions();
 
 //Update location
 x = x + h_speed;
 y = y + v_speed;
-
+	
 //Turns on gravity
-v_speed = v_speed + player.grav;
+v_speed = v_speed + global.grav;
 
 hitboxTimer = hitboxTimer - 1;
 
@@ -72,23 +17,14 @@ if (!player.active) {
 	
 	h_speed = move * mySpeed;
 	
-	//Jump
-	if (((place_meeting(x,y+player.grav,wall)) && ((keyboard_check_pressed(vk_space)) || (gamepad_button_check_pressed(0,gp_face1))))) {
-		if (player.gravSwitch) {
-			v_speed = jumpStrength;
-		}
-		else {
-			v_speed = -jumpStrength;
-		}
-	}
+	jump();
 	
-	if (keyboard_check_pressed(vk_shift)){
+	if (key_abilityUse){
 		h_speed = 0;
 		v_speed = 0;
 		if (hitboxTimer < 0) {
 			hitboxTimer = hitboxTimerReset
 			with (instance_create_layer(x,y,player2,hitbox)){
-				audio_play_sound(punch, 1, false);
 				image_xscale = other.image_xscale;
 				image_yscale = other.image_yscale;
 				with (instance_place(x,y,smashableWall)) {
@@ -113,9 +49,25 @@ if (!player.active) {
 #endregion
 
 #region Animation
+if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button))) {
+	sprite_index = Player2SpriteInAir;
+}
+else {
+	if (h_speed == 0) {
+		image_speed = 0;
+		sprite_index = player2Sprite;		
+	}
+	if (h_speed != 0) {
+		image_speed = 1;
+		sprite_index = Player2SpriteWalk;
+	}
+}
+
 //Flip sides on ground
 if (h_speed != 0) image_xscale = sign(h_speed);
 
 //Flip sides depending on grav
-image_yscale = sign(player.grav);
+image_yscale = player.image_yscale;
+
 #endregion
+
