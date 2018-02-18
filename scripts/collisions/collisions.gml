@@ -43,7 +43,7 @@ if(place_meeting(x+h_speed,y,smashableWall)) {
 	h_speed = 0;
 	
 }
-
+/*
 if(place_meeting(x+h_speed,y,crate)) {
 	
 	while (!place_meeting(x+sign(h_speed),y,crate)) {
@@ -65,7 +65,7 @@ if(place_meeting(x,y+v_speed,crate)) {
 	v_speed = 0;
 	
 }
-/*
+
 if(place_meeting(x+h_speed,y,button)) {
 	
 	while (!place_meeting(x+sign(h_speed),y,button)) {
