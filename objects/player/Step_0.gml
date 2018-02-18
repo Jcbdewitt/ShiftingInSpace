@@ -59,11 +59,13 @@ if (active) {
 		switch (abilitySelect) {
 			case 0:
 				if (gravSwitch) {
+					audio_play_sound(gravityNormal,5,false);
 					gravSwitch = false;
 					global.grav = 1;
 					switchFix = switchFix * -1;
 				}
 				else {
+					audio_play_sound(gravityInvert,5,false);
 					gravSwitch = true;
 					global.grav = -1;
 					switchFix = switchFix * -1;

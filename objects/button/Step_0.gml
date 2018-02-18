@@ -1,13 +1,36 @@
 /// @desc
+#region pressing button
 if (place_meeting(x,y+1,player2)){
-	sprite_index = buttonDownSprite;
+	image_index = 1;
+	pressed = true;
 }
-if (place_meeting(x,y+1,crate)){
-	sprite_index = buttonDownSprite;		
+else if (place_meeting(x,y+crate.sprite_height/2,crate)){
+	image_index = 1;
+	pressed = true;
 }
-if (place_meeting(x,y+1,player)){
-	sprite_index = buttonDownSprite;		
+else if (place_meeting(x,y+1,player)){
+	image_index = 1;		
+	pressed = true;
 }
 else {
-	sprite_index = buttonUpSprite;	
+	image_index = 0;
+	pressed = false;
 }
+#endregion
+
+#region once pressed
+if (pressed) {
+	with(platform){
+        if(platformid == other.buttonid){
+            appear = true;
+        }
+    }
+}
+else {
+	with(platform){
+        if(platformid == other.buttonid){
+            appear = false;
+        }
+    }
+}
+#endregion
