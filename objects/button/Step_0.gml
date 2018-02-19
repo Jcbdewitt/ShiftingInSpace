@@ -1,15 +1,7 @@
 /// @desc
 #region pressing button
-if (place_meeting(x,y+1,player2)){
+if ((place_meeting(x,y+1,player2)) || (place_meeting(x,y+1,crate)) || (place_meeting(x,y+1,player))){
 	image_index = 1;
-	pressed = true;
-}
-else if (place_meeting(x,y+crate.sprite_height/2,crate)){
-	image_index = 1;
-	pressed = true;
-}
-else if (place_meeting(x,y+1,player)){
-	image_index = 1;		
 	pressed = true;
 }
 else {
