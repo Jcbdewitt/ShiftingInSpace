@@ -1,9 +1,9 @@
-enum states {
+enum playerstates {
 	alone,
 	normal,
 	intro
 }
-states = states.normal;
+playerstates = playerstates.normal;
 image_speed = 0;
 active = true;
 gravSwitch = false;
