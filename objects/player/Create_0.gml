@@ -1,3 +1,9 @@
+enum states {
+	alone,
+	normal,
+	intro
+}
+states = states.normal;
 image_speed = 0;
 active = true;
 gravSwitch = false;

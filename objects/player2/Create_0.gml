@@ -1,6 +1,7 @@
 enum states {
 	normal,
-	attack
+	attack,
+	intro
 }
 states = states.normal;
 onSurface = false;

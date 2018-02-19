@@ -27,7 +27,7 @@ var platid = instance_nearest(x,y,platform);
 if (platid.appear) {
 	if (place_meeting(x+h_speed,y,platform)) {
 	
-		while (!place_meeting(x+sign(h_speed),y,wall)) {
+		while (!place_meeting(x+sign(h_speed),y,platform)) {
 		
 			x = x + sign(h_speed);
 		

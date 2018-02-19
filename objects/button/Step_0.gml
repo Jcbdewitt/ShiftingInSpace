@@ -11,18 +11,36 @@ else {
 #endregion
 
 #region once pressed
-if (pressed) {
-	with(platform){
-        if(platformid == other.buttonid){
-            appear = true;
-        }
-    }
+if (doorButton) {
+	if (pressed) {
+		with(door){
+	        if(doorid == other.buttonid){
+	            open = true;
+	        }
+	    }
+	}
+	else {
+		with(door){
+	        if(doorid == other.buttonid){
+	            open = false;
+	        }
+	    }
+	}
 }
-else {
-	with(platform){
-        if(platformid == other.buttonid){
-            appear = false;
-        }
-    }
+else{ 
+	if (pressed) {
+		with(platform){
+	        if(platformid == other.buttonid){
+	            appear = true;
+	        }
+	    }
+	}
+	else {
+		with(platform){
+	        if(platformid == other.buttonid){
+	            appear = false;
+	        }
+	    }
+	}
 }
 #endregion
