@@ -391,19 +391,19 @@
             }
         },
         {
-            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
-            "Value": {
-                "id": "7c148a9b-ee75-4dcf-a272-a5a4391ce07a",
-                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
-                "resourceType": "GMAmazonFireOptions"
-            }
-        },
-        {
             "Key": "a6145cdb-dc6c-4319-b910-9eb9a2627037",
             "Value": {
                 "id": "f2e2d95b-e494-4e0f-a138-828e9bcd6eed",
                 "resourcePath": "objects\\crate\\crate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afbb8ba3-3ed8-4c7c-b13c-8227b43bc329",
+            "Value": {
+                "id": "12c0ba9b-ae9e-4351-b5c8-3c5846154e8b",
+                "resourcePath": "rooms\\level02\\level02.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
