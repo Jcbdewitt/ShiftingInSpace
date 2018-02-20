@@ -1,8 +1,8 @@
 {
-    "id": "4f37c624-1d1c-437f-99a0-d19b8757ef9b",
+    "id": "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "normal_Script",
+    "name": "player2Attack_Script",
     "IsCompatibility": false,
     "IsDnD": false
 }

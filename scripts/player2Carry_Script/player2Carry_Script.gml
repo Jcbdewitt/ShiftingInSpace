@@ -19,7 +19,7 @@ if (!player.active) {
 	if (key_abilityUse) {
 		grabCrate = false;
 		with (crateid) {
-			v_speed = -100 * !sign(other.image_yscale);
+			//v_speed = -100 * !sign(other.image_yscale);
 			h_speed = 10 * sign(other.image_xscale);
 		}
 		player2states = player2states.normal;

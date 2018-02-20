@@ -1,9 +1,9 @@
 switch (player2states) {
 	case player2states.normal:
-		normal_Script();
+		player2Normal_Script();
 		break;
 	case player2states.attack:
-		attack_Script();
+		player2Attack_Script();
 		break;
 	case player2states.carrying:
 		player2Carry_Script();

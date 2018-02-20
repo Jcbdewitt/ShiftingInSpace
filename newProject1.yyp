@@ -186,7 +186,7 @@
             "Key": "4f37c624-1d1c-437f-99a0-d19b8757ef9b",
             "Value": {
                 "id": "e40abbf3-05f3-470b-a8b0-2c45e1090b05",
-                "resourcePath": "scripts\\normal_Script\\normal_Script.yy",
+                "resourcePath": "scripts\\player2Normal_Script\\player2Normal_Script.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -519,6 +519,14 @@
             }
         },
         {
+            "Key": "cf09e237-b8ce-4899-8e97-3235d8520730",
+            "Value": {
+                "id": "60a82275-6b0f-4e03-bb23-5229e8e17f30",
+                "resourcePath": "views\\cf09e237-b8ce-4899-8e97-3235d8520730.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cf330f02-c3f1-4fbe-bd5c-d5741f020d95",
             "Value": {
                 "id": "0dc6fd50-96c7-4334-a7d3-ae20a62adb28",
@@ -546,7 +554,7 @@
             "Key": "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
             "Value": {
                 "id": "9568fcd0-929d-40c8-aad5-f96afba523de",
-                "resourcePath": "scripts\\attack_Script\\attack_Script.yy",
+                "resourcePath": "scripts\\player2Attack_Script\\player2Attack_Script.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -613,18 +621,26 @@
                 "resourcePath": "objects\\Enemy\\Enemy.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "ff596a43-fc83-4d7d-9134-89c922b2c32c",
+            "Value": {
+                "id": "6149ddc4-030c-49be-988a-126587b12e8b",
+                "resourcePath": "views\\ff596a43-fc83-4d7d-9134-89c922b2c32c.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
-        "d449264d-7e9b-4160-9b00-a64795127247",
-        "8077473f-4e99-42de-ae8f-a66863978022",
-        "8b48a7d5-b318-4e27-952c-5e634cef0aea",
-        "4f37c624-1d1c-437f-99a0-d19b8757ef9b",
-        "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
         "895f96f7-d467-4a07-ae4d-6232db68e0a0",
-        "18a4c948-e9c5-4f41-8007-823fdd3538eb",
+        "d449264d-7e9b-4160-9b00-a64795127247",
+        "8b48a7d5-b318-4e27-952c-5e634cef0aea",
+        "8077473f-4e99-42de-ae8f-a66863978022",
         "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
-        "c673edd6-fbe2-43be-990b-291330d47362"
+        "c673edd6-fbe2-43be-990b-291330d47362",
+        "18a4c948-e9c5-4f41-8007-823fdd3538eb",
+        "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
+        "4f37c624-1d1c-437f-99a0-d19b8757ef9b"
     ],
     "tutorial": ""
 }
