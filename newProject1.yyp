@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "18a4c948-e9c5-4f41-8007-823fdd3538eb",
+            "Value": {
+                "id": "cfcc78c7-ed94-4ca0-9c45-8bc62a6bcac7",
+                "resourcePath": "scripts\\player2Carry_Script\\player2Carry_Script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1e41f5c9-077f-464d-9ee7-540f59ade839",
             "Value": {
                 "id": "b0135288-63db-4ce6-be86-6f61a61a9112",
@@ -132,6 +140,14 @@
                 "id": "553c8350-87df-41e7-b35e-72af976a6543",
                 "resourcePath": "views\\312aafcf-3334-4164-a707-32462f230ae7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
+            "Value": {
+                "id": "ec6af43e-da76-4d4d-b4f4-a1bc7fe3617b",
+                "resourcePath": "scripts\\abilitySelect_Script\\abilitySelect_Script.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -471,6 +487,14 @@
             }
         },
         {
+            "Key": "c673edd6-fbe2-43be-990b-291330d47362",
+            "Value": {
+                "id": "cf8043f6-4e70-4612-b72c-f9967506ab97",
+                "resourcePath": "scripts\\player2Animation_Script\\player2Animation_Script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c88e793c-6470-402f-883e-8185531bf91f",
             "Value": {
                 "id": "5b81b0a4-7850-404e-bbaa-2068ca650dd5",
@@ -597,7 +621,10 @@
         "8b48a7d5-b318-4e27-952c-5e634cef0aea",
         "4f37c624-1d1c-437f-99a0-d19b8757ef9b",
         "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
-        "895f96f7-d467-4a07-ae4d-6232db68e0a0"
+        "895f96f7-d467-4a07-ae4d-6232db68e0a0",
+        "18a4c948-e9c5-4f41-8007-823fdd3538eb",
+        "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
+        "c673edd6-fbe2-43be-990b-291330d47362"
     ],
     "tutorial": ""
 }

@@ -23,19 +23,9 @@ if ((keyboard_check_pressed(vk_tab)) || (gamepad_button_check_pressed(0,gp_face4
 			player2.v_speed = 0;
 		}		
 }
-//Ability switcher
-if (key_switchRight) {
-	abilitySelect++;
-	if (abilitySelect > numOfAbilites - 1) {
-		abilitySelect = 0;
-	}
-}
-if (key_switchLeft) {
-	abilitySelect--;
-	if (abilitySelect < 0) {
-		abilitySelect = 1
-	}
-}
+
+abilitySelect_Script();
+
 #endregion
 
 #region If has control
@@ -76,6 +66,8 @@ if (active) {
 				oldY = y;
 				
 				with (player2) {
+					grabCrate = false;
+					player2states = player2states.normal;
 					oldX = x;
 					oldY = y;
 					x = player.oldX;

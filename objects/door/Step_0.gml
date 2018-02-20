@@ -13,7 +13,7 @@ if ((buttonOpened) && (open)) {
 }
 
 //If opened by key
-else if (keyOpened){
+else if ((keyOpened) && (!buttonOpened)){
 	if (oneTime > 0) {
 		player.numOfCards--;
 		oneTime--;

@@ -10,30 +10,34 @@ if (!player.active) {
 	
 	jump();
 	
-	if ((key_abilityUse) && (hitboxTimer < 0)){
-		h_speed = 0;
-		v_speed = 0;
-		states = states.attack;
-	}
+	abilitySelect_Script();
 	
+	if (key_abilityUse){
+		switch (abilitySelect) {
+			case 0:
+				if (hitboxTimer < 0) {
+					h_speed = 0;
+					v_speed = 0;
+					player2states = player2states.attack;
+				}
+				break;
+			case 1:
+				with (instance_create_layer(x,y,player2,hitbox)){				
+					image_xscale = other.image_xscale;
+					image_yscale = other.image_yscale;
+					if (instance_place(x,y,crate)) {
+						other.grabCrate = true;		
+					}
+				}
+				if (grabCrate == true) {
+					player2states = player2states.carrying;
+				}
+				break;
+		}
+	}
 }
 #endregion
 
-#region Animation
-
-if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button))) {
-	sprite_index = player2SpriteInAir;
-}
-else {
-	if (h_speed == 0) {
-		image_speed = 0;
-		sprite_index = player2Sprite;		
-	}
-	if (h_speed != 0) {
-		image_speed = 1;
-		sprite_index = player2SpriteWalk;
-	}
-}
-#endregion
+player2Animation_Script();
 
 collisions();

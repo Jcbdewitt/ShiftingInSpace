@@ -22,14 +22,7 @@ if  ((image_index >= 2) && (3 >= image_index)) {
 	}
 	runOnce = true;
 	
-	states = states.normal;	
+	player2states = player2states.normal;	
 }
 
 collisions();
-
-//if (image_index == 3) {
-	//image_speed = 0;
-	
-	
-
-//}

@@ -1,10 +1,13 @@
-switch (states) {
-	case states.normal:
+switch (player2states) {
+	case player2states.normal:
 		normal_Script();
 		break;
-	case states.attack:
+	case player2states.attack:
 		attack_Script();
-		break;	
+		break;
+	case player2states.carrying:
+		player2Carry_Script();
+		break;
 }
 //Update location
 x = x + h_speed;
