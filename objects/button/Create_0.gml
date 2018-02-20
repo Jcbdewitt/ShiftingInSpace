@@ -1,4 +1,4 @@
 /// @desc
 pressed = false;
-doorButton = false;
-buttonid = 1;
+buttonOpened = false;
+buttonid = 0;

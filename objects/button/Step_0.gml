@@ -11,7 +11,7 @@ else {
 #endregion
 
 #region once pressed
-if (doorButton) {
+if (buttonOpened) {
 	if (pressed) {
 		with(door){
 	        if(doorid == other.buttonid){

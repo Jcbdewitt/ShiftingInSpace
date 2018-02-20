@@ -50,7 +50,7 @@ if (active) {
 	//Open door when approached if have a keycard
 	if ((place_meeting(x+h_speed,y,door)) && (numOfCards > 0)) {
 		with (instance_place(x+h_speed,y,door)) {
-			open = true;
+			keyOpened = true;
 		}
 	}
 
