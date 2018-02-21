@@ -13,4 +13,4 @@ if ((pickedUp) && (!player2.grabCrate)) {
 	}
 }
 
-collisions();
+collisions_Script();

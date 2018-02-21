@@ -1,4 +1,4 @@
-playerInput();
+playerInput_Script();
 
 hitboxTimer = hitboxTimer - 1;
 
@@ -8,7 +8,7 @@ if (!player.active) {
 	
 	h_speed = move * mySpeed;
 	
-	jump();
+	jump_Script();
 	
 	abilitySelect_Script();
 	
@@ -40,4 +40,4 @@ if (!player.active) {
 
 player2Animation_Script();
 
-collisions();
+collisions_Script();

@@ -1,4 +1,4 @@
-playerInput();
+playerInput_Script();
 
 if (runOnce) var crateid = (instance_nearest(x,y,crate));
 	
@@ -40,4 +40,4 @@ player2Animation_Script();
 //Slower animation because weight
 image_speed = .5;
 
-collisions();
+collisions_Script();

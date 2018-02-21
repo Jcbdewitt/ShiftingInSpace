@@ -1,8 +1,8 @@
 {
-    "id": "8077473f-4e99-42de-ae8f-a66863978022",
+    "id": "e0ddef2b-0d40-4284-a8cb-3bd75e4a8c3f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "collisions",
+    "name": "enemyPatrol_Script",
     "IsCompatibility": false,
     "IsDnD": false
 }

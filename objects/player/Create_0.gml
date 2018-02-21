@@ -1,7 +1,7 @@
 enum playerstates {
 	alone,
-	normal,
-	intro
+	intro,
+	normal
 }
 playerstates = playerstates.normal;
 image_speed = 0;

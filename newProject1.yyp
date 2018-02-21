@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "367b082d-7d63-4a10-97f5-dbae3ebb3508",
+            "Value": {
+                "id": "1ed0a6bf-fefc-4842-a762-ad881d72790e",
+                "resourcePath": "scripts\\enemyAttack_Script\\enemyAttack_Script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
             "Value": {
                 "id": "ec6af43e-da76-4d4d-b4f4-a1bc7fe3617b",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "72711090-bc10-4d21-b884-e14c44935f25",
+            "Value": {
+                "id": "23d32ed1-2894-4c35-843d-62a4dc010dfc",
+                "resourcePath": "rooms\\levelTutorialPlayer2\\levelTutorialPlayer2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "72def5b3-a290-4c7a-9f30-c3d15fcf63b1",
             "Value": {
                 "id": "e05393da-0bc7-436f-bcb8-3cec1e66f1bd",
@@ -298,7 +314,7 @@
             "Key": "8077473f-4e99-42de-ae8f-a66863978022",
             "Value": {
                 "id": "386d4829-71f4-42ce-b99a-f28911cb6260",
-                "resourcePath": "scripts\\collisions\\collisions.yy",
+                "resourcePath": "scripts\\collisions_Script\\collisions_Script.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -308,6 +324,14 @@
                 "id": "fb0c73bc-4168-4022-abe6-24a50a49fc56",
                 "resourcePath": "views\\80c2d4cf-7ca6-43c9-9c14-525cb8f7d235.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8542a4e2-851e-44a8-816b-362cc5a2f533",
+            "Value": {
+                "id": "24fbc2b0-7bc4-40cb-b731-9e8cd9bbcc0e",
+                "resourcePath": "scripts\\playerNormal_Script\\playerNormal_Script.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -346,8 +370,16 @@
             "Key": "8b48a7d5-b318-4e27-952c-5e634cef0aea",
             "Value": {
                 "id": "3a86fce3-873c-42e7-b636-76ef625b0562",
-                "resourcePath": "scripts\\jump\\jump.yy",
+                "resourcePath": "scripts\\jump_Script\\jump_Script.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8d46b89d-357f-4a79-87a9-174b4ebd2604",
+            "Value": {
+                "id": "49fcfbc6-b860-4f00-aaf9-fc302cc0d644",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -371,6 +403,14 @@
             "Value": {
                 "id": "f2baba13-8c85-4785-8071-be02b6e8ca1a",
                 "resourcePath": "rooms\\titleScreen\\titleScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "95141cc5-5a75-42e5-83f6-b9757c9ce0c3",
+            "Value": {
+                "id": "510fdc5b-8c3f-435e-afa7-fe3f0f2113e9",
+                "resourcePath": "rooms\\levelTutorialPlayer\\levelTutorialPlayer.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -428,6 +468,14 @@
                 "id": "f2e2d95b-e494-4e0f-a138-828e9bcd6eed",
                 "resourcePath": "objects\\crate\\crate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af113883-0d52-40a5-85fc-3eedb91f53b2",
+            "Value": {
+                "id": "2e42f973-0496-4fcb-ae44-10b023e906ec",
+                "resourcePath": "scripts\\enemyWatch_Script\\enemyWatch_Script.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -535,10 +583,18 @@
             }
         },
         {
+            "Key": "d011a4f0-5a6b-4999-900d-7c5086da8d88",
+            "Value": {
+                "id": "7155407f-0fb4-4e7b-ad50-485b6e46c66f",
+                "resourcePath": "views\\d011a4f0-5a6b-4999-900d-7c5086da8d88.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d449264d-7e9b-4160-9b00-a64795127247",
             "Value": {
                 "id": "6c845750-58f2-420f-8c37-da1b76ec2034",
-                "resourcePath": "scripts\\playerInput\\playerInput.yy",
+                "resourcePath": "scripts\\playerInput_Script\\playerInput_Script.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -575,6 +631,22 @@
             }
         },
         {
+            "Key": "e0ddef2b-0d40-4284-a8cb-3bd75e4a8c3f",
+            "Value": {
+                "id": "96d29357-ecf2-4acc-b6e0-3206c6f0722d",
+                "resourcePath": "scripts\\enemyPatrol_Script\\enemyPatrol_Script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e1f71faf-26d1-455e-a507-9462a9d08bff",
+            "Value": {
+                "id": "5349befd-3e6b-4e49-89fc-ed1d7cae0f58",
+                "resourcePath": "scripts\\playerAnimation_Script\\playerAnimation_Script.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e58d7278-c336-4070-8b17-b04b2b457669",
             "Value": {
                 "id": "9ff9da48-cd10-47e3-a42a-53ef01095234",
@@ -588,6 +660,14 @@
                 "id": "b14aeef8-54b1-47c0-82be-b23a152607e6",
                 "resourcePath": "objects\\player2\\player2.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eb1be22e-29ed-4b58-810d-40babcc20b7f",
+            "Value": {
+                "id": "267acac1-74bf-4bf9-b528-a9c1d55c9daf",
+                "resourcePath": "views\\eb1be22e-29ed-4b58-810d-40babcc20b7f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -623,6 +703,14 @@
             }
         },
         {
+            "Key": "fd5535ad-a428-4ba0-898f-9fa03e22d067",
+            "Value": {
+                "id": "3fab6b81-08c1-46a2-893c-f6b0c25034d4",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "ff596a43-fc83-4d7d-9134-89c922b2c32c",
             "Value": {
                 "id": "6149ddc4-030c-49be-988a-126587b12e8b",
@@ -637,10 +725,15 @@
         "8b48a7d5-b318-4e27-952c-5e634cef0aea",
         "8077473f-4e99-42de-ae8f-a66863978022",
         "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
+        "8542a4e2-851e-44a8-816b-362cc5a2f533",
+        "e1f71faf-26d1-455e-a507-9462a9d08bff",
         "c673edd6-fbe2-43be-990b-291330d47362",
         "18a4c948-e9c5-4f41-8007-823fdd3538eb",
         "d8d65874-bee6-4a9d-9cfb-baa2e615566e",
-        "4f37c624-1d1c-437f-99a0-d19b8757ef9b"
+        "4f37c624-1d1c-437f-99a0-d19b8757ef9b",
+        "af113883-0d52-40a5-85fc-3eedb91f53b2",
+        "e0ddef2b-0d40-4284-a8cb-3bd75e4a8c3f",
+        "367b082d-7d63-4a10-97f5-dbae3ebb3508"
     ],
     "tutorial": ""
 }

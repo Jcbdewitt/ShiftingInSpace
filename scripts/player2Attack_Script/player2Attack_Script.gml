@@ -25,4 +25,4 @@ if  ((image_index >= 2) && (3 >= image_index)) {
 	player2states = player2states.normal;	
 }
 
-collisions();
+collisions_Script();

@@ -1,3 +1,4 @@
+//State machine to determine what script to run
 switch (player2states) {
 	case player2states.normal:
 		player2Normal_Script();
