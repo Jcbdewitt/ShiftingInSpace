@@ -3,7 +3,7 @@ enum playerstates {
 	intro,
 	normal
 }
-playerstates = playerstates.normal;
+playerstates = playerstates.alone;
 image_speed = 0;
 active = true;
 gravSwitch = false;
@@ -11,7 +11,6 @@ onSurface = false;
 mySpeed = 5;
 h_speed = 0;
 v_speed = 0;
-global.grav = 1;
 oldX = 0;
 oldY = 0;
 controller = 0;
@@ -20,4 +19,4 @@ abilitySelect = 0;
 numOfAbilites = 2;
 numOfCards = 0;
 roomIn = 1;
-switchFix = -25;
+switchOffset = -25;

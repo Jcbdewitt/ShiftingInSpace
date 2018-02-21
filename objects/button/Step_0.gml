@@ -1,4 +1,3 @@
-/// @desc
 #region pressing button
 if ((place_meeting(x,y+1,player2)) || (place_meeting(x,y+1,crate)) || (place_meeting(x,y+1,player))){
 	image_index = 1;

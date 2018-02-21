@@ -20,7 +20,7 @@ abilitySelect_Script();
 #endregion
 
 #region If has control
-if (active) {
+if (global.active) {
 	//Calculate movement
 	var move = key_right - key_left;
 
@@ -49,7 +49,7 @@ if (active) {
 					audio_play_sound(gravityInvert,5,false);
 					gravSwitch = true;
 					global.grav = -1;
-					switchFix = switchFix * -1;
+					switchOffset = switchOffset * -1;
 				}
 				break;
 			case 1:
@@ -62,7 +62,7 @@ if (active) {
 					oldX = x;
 					oldY = y;
 					x = player.oldX;
-					y = player.oldY + player.switchFix;
+					y = player.oldY + player.switchOffset;
 					other.x = oldX;
 					other.y = oldY;
 				}

@@ -1,4 +1,5 @@
-/// @desc
+global.active = true;
+global.grav = 1;
 cam = view_camera[0];
 view_w_half = camera_get_view_width(cam) * .5;
 view_h_half = camera_get_view_height(cam) * .5;

@@ -1,5 +1,11 @@
 //State machine to determine what script to run
 switch (player2states) {
+	case player2states.alone:
+		player2Alone_Script();
+		break;
+	case player2states.intro:
+		intro_Script();
+		break;
 	case player2states.normal:
 		player2Normal_Script();
 		break;
@@ -21,4 +27,6 @@ v_speed = v_speed + global.grav;
 if (h_speed != 0) image_xscale = sign(h_speed);
 
 //Flip sides depending on players yscale 
-image_yscale = player.image_yscale;
+if (instance_exists(player)){
+	image_yscale = player.image_yscale;
+}

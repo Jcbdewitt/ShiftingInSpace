@@ -1,5 +1,5 @@
 //Change camera depending on what room the player you are controling is in
-if (player.active){
+if (global.active){
 	xTo = (playerRoom - 1) * roomLength + roomLengthHalf;
 	
 	if (player.x > playerRoom * roomLength) {

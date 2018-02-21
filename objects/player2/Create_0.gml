@@ -5,7 +5,7 @@ enum player2states {
 	attack,
 	carrying
 }
-player2states = player2states.normal;
+player2states = player2states.alone;
 onSurface = false;
 pound = false;
 runOnce = true;

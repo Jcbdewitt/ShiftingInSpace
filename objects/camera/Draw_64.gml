@@ -1,5 +1,6 @@
 /// @desc
-if (player.active) {
+
+if (global.active) {
 	draw_sprite(guiSprite,player.abilitySelect,view_xport[0],view_yport[0]);
 }
 else {

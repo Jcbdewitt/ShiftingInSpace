@@ -3,7 +3,7 @@ playerInput_Script();
 hitboxTimer = hitboxTimer - 1;
 
 #region If has control
-if (!player.active) {
+if (!global.active) {
 	var move = key_right - key_left;
 	
 	h_speed = move * mySpeed;

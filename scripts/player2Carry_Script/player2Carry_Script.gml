@@ -9,7 +9,7 @@ with (crateid) {
 	pickedUp = true;
 }
 	
-if (!player.active) {
+if (!global.active) {
 	var move = key_right - key_left;
 	
 	//Divided by 2 to slow down the player to add weight
