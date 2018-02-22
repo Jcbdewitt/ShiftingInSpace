@@ -1,7 +1,3 @@
-/// @desc
-x = x + h_speed;
-y = y + v_speed;
-
 if (!player2.grabCrate) {
 	v_speed = v_speed + global.grav;
 }

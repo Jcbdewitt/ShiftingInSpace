@@ -10,10 +10,6 @@ switch (enemystates) {
 		break;
 }
 
-
-x = x + h_speed;
-y = y + v_speed;
-
 v_speed += global.grav;
 
 image_yscale = player.image_yscale;
