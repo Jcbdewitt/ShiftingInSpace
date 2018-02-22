@@ -13,7 +13,7 @@ if (runOnce){
 if  ((image_index >= 2) && (3 >= image_index)) {
 	audio_play_sound(punch,5,false);
 	image_index = 3;
-	with (instance_create_layer(x,y,player2,hitbox)){				
+	with (instance_create_layer(x,y,"player2",hitbox)){				
 		image_xscale = other.image_xscale;
 		image_yscale = other.image_yscale;
 		with (instance_place(x,y,smashableWall)) {

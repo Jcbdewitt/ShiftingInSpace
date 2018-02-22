@@ -1,4 +1,4 @@
-if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button))) {
+if (!(place_meeting(x,y+global.grav,wall) || place_meeting(x,y+global.grav,crate) || place_meeting(x,y+global.grav,button) || place_meeting(x,y+global.grav,platform))) {
 	sprite_index = player2SpriteInAir;
 }
 else {

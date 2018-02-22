@@ -22,7 +22,7 @@ if (!global.active) {
 				}
 				break;
 			case 1:
-				with (instance_create_layer(x,y,player2,hitbox)){				
+				with (instance_create_layer(x,y,"player2",hitbox)){				
 					image_xscale = other.image_xscale;
 					image_yscale = other.image_yscale;
 					if (instance_place(x,y,crate)) {
