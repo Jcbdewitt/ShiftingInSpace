@@ -3,13 +3,13 @@ playerInput_Script();
 #region Switchers
 //Player switcher
 if ((keyboard_check_pressed(vk_tab)) || (gamepad_button_check_pressed(0,gp_face4))) {
-		if (active) {
-			active = false;
+		if (global.active) {
+			global.active = false;
 			h_speed = 0;
 			v_speed = 0;
 		}
 		else {
-			active = true;
+			global.active = true;
 			player2.h_speed = 0;
 			player2.v_speed = 0;
 		}		
@@ -43,7 +43,7 @@ if (global.active) {
 					audio_play_sound(gravityNormal,5,false);
 					gravSwitch = false;
 					global.grav = 1;
-					switchFix = switchFix * -1;
+					switchOffset = switchOffset  * -1;
 				}
 				else {
 					audio_play_sound(gravityInvert,5,false);

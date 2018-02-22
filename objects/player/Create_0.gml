@@ -3,7 +3,7 @@ enum playerstates {
 	intro,
 	normal
 }
-playerstates = playerstates.alone;
+playerstates = playerstates.normal;
 image_speed = 0;
 active = true;
 gravSwitch = false;

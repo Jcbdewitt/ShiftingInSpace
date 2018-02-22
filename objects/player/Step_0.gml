@@ -1,6 +1,6 @@
 switch (playerstates) {
 	case playerstates.intro:
-		intro_Script();
+		playerIntro_Script();
 		break;
 	case playerstates.alone:
 		playerAlone_Script();

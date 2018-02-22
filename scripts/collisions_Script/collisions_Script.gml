@@ -21,31 +21,32 @@ if(place_meeting(x,y+v_speed,wall)) {
 	v_speed = 0;
 	
 }
-
-var platid = instance_nearest(x,y,platform);
-//if platform is solid collid with it
-if (platid.appear) {
-	if (place_meeting(x+h_speed,y,platform)) {
+if (instance_exists(platform)) {
+	var platid = instance_nearest(x,y,platform);
+	//if platform is solid collid with it
+	if (platid.appear) {
+		if (place_meeting(x+h_speed,y,platform)) {
 	
-		while (!place_meeting(x+sign(h_speed),y,platform)) {
+			while (!place_meeting(x+sign(h_speed),y,platform)) {
 		
-			x = x + sign(h_speed);
+				x = x + sign(h_speed);
 		
+			}
+			h_speed = 0;
+	
 		}
-		h_speed = 0;
-	
-	}
 
 
-	if(place_meeting(x,y+v_speed,platform)) {
+		if(place_meeting(x,y+v_speed,platform)) {
 	
-		while (!place_meeting(x,y+sign(v_speed),platform)) {
+			while (!place_meeting(x,y+sign(v_speed),platform)) {
 		
-			y = y + sign(v_speed);
+				y = y + sign(v_speed);
 			
-		}
-		v_speed = 0;
+			}
+			v_speed = 0;
 	
+		}
 	}
 }
 

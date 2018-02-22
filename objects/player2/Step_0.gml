@@ -4,7 +4,7 @@ switch (player2states) {
 		player2Alone_Script();
 		break;
 	case player2states.intro:
-		intro_Script();
+		player2Intro_Script();
 		break;
 	case player2states.normal:
 		player2Normal_Script();
