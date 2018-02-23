@@ -6,6 +6,7 @@ enum player2states {
 	carrying
 }
 player2states = player2states.normal;
+crateid = 0;
 onSurface = false;
 pound = false;
 runOnce = true;

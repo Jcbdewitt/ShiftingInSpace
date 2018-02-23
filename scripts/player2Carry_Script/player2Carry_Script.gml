@@ -1,6 +1,9 @@
 playerInput_Script();
 
-if (runOnce) var crateid = (instance_nearest(x,y,crate));
+if (runOnce){
+	crateid = (instance_nearest(x,y,crate));
+	runOnce = false;
+}
 	
 with (crateid) {
 	//Where the crate is held
@@ -18,6 +21,7 @@ if (!global.active) {
 	//Throw crate
 	if (key_abilityUse) {
 		grabCrate = false;
+		runOnce = true;
 		with (crateid) {
 			//v_speed = -100 * !sign(other.image_yscale);
 			h_speed = 10 * sign(other.image_xscale);
@@ -28,6 +32,7 @@ if (!global.active) {
 	//Drop crate
 	if (key_switchRight) {
 		grabCrate = false;
+		runOnce = true;
 		player2states = player2states.normal;
 	}
 	

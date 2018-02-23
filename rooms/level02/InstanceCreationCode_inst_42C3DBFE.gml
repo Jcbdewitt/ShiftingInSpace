@@ -1,3 +1,3 @@
 buttonOpened = true;
 doorid = 1;
-horizontalDoor = true;
+sideway = true;

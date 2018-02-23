@@ -13,7 +13,7 @@ if(place_meeting(x+h_speed,y,wall)) {
 if (instance_exists(platform)) {
 	var platid = instance_nearest(x,y,platform);
 	//if platform is solid collid with it
-	if (platid.appear) {
+	if (platid.isSolid) {
 		if (place_meeting(x+h_speed,y,platform)) {
 	
 			while (!place_meeting(x+sign(h_speed),y,platform)) {
@@ -45,6 +45,7 @@ if(place_meeting(x+h_speed,y,smashableWall)) {
 	h_speed = 0;
 	
 }
+
 /*
 if(place_meeting(x+h_speed,y,crate)) {
 	
@@ -73,7 +74,7 @@ if(place_meeting(x,y+v_speed,wall)) {
 
 if(place_meeting(x,y+v_speed,door)) {
 	
-	while (!place_meeting(x+sign(h_speed),y,door)) {
+	while (!place_meeting(x,y+sign(v_speed),door)) {
 		y = y + sign(v_speed);	
 	}
 	
@@ -84,7 +85,7 @@ if(place_meeting(x,y+v_speed,door)) {
 if (instance_exists(platform)) {
 	var platid = instance_nearest(x,y,platform);
 	//if platform is solid collid with it
-	if (platid.appear) {
+	if (platid.isSolid) {
 		if(place_meeting(x,y+v_speed,platform)) {
 	
 			while (!place_meeting(x,y+sign(v_speed),platform)) {
@@ -96,6 +97,7 @@ if (instance_exists(platform)) {
 		}
 	}
 }
+
 /*
 if(place_meeting(x,y+v_speed,crate)) {
 
