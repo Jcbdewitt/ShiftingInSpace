@@ -70,6 +70,17 @@ if(place_meeting(x,y+v_speed,wall)) {
 	v_speed = 0;
 	
 }
+
+if(place_meeting(x,y+v_speed,door)) {
+	
+	while (!place_meeting(x+sign(h_speed),y,door)) {
+		y = y + sign(v_speed);	
+	}
+	
+	v_speed = 0;
+	
+}
+
 if (instance_exists(platform)) {
 	var platid = instance_nearest(x,y,platform);
 	//if platform is solid collid with it
