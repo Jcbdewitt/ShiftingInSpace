@@ -1,1 +1,0 @@
-playerstates = playerstates.normal;
