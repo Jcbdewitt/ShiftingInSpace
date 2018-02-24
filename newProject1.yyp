@@ -98,7 +98,7 @@
             "Key": "17a92dc5-7d6b-447e-b5c1-f287b973fda8",
             "Value": {
                 "id": "4c432c52-dcd5-4423-817f-f3a9cc53affd",
-                "resourcePath": "sprites\\smashableWallSprite\\smashableWallSprite.yy",
+                "resourcePath": "sprites\\smashableWallSpriteIdle\\smashableWallSpriteIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "95b50482-9895-478d-ba8c-20fbce5ac91e",
+            "Value": {
+                "id": "55fd83d0-fe09-4fd5-8c59-2ae4e22daa55",
+                "resourcePath": "views\\95b50482-9895-478d-ba8c-20fbce5ac91e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "98e945d8-2667-4635-b39f-f97667c1feda",
             "Value": {
                 "id": "4607ba7b-91af-419e-9409-4bb0807e38dd",
@@ -556,6 +564,14 @@
                 "id": "f2e2d95b-e494-4e0f-a138-828e9bcd6eed",
                 "resourcePath": "objects\\crate\\crate.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a6fa4bba-8446-416f-9b8a-8edf2f31d32b",
+            "Value": {
+                "id": "60cf7fa4-c2db-47e2-93bb-59f34d90e66b",
+                "resourcePath": "sprites\\smashableWallSprite\\smashableWallSprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +671,14 @@
             }
         },
         {
+            "Key": "c7c88f21-2091-4d11-b2f6-024a29004a7e",
+            "Value": {
+                "id": "c0c35c6f-395f-4548-bb2f-f0e9a7dd3213",
+                "resourcePath": "sprites\\play2CratePickup\\play2CratePickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7d7f462-f442-429d-bd84-18ee739aa50b",
             "Value": {
                 "id": "f3f0b610-7d30-4ace-b632-33ba13e61643",
@@ -684,6 +708,14 @@
                 "id": "2424be02-5c50-4097-82f8-c3402aa5161b",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cefcba19-6fee-4905-8621-60040ae756ef",
+            "Value": {
+                "id": "4553da68-6be4-40fe-8c9b-b042d93f392b",
+                "resourcePath": "sprites\\crackingWallDestroyed\\crackingWallDestroyed.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
