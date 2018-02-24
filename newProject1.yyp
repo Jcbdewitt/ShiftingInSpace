@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "5333b91f-bd92-49eb-b4d5-d6e016c5877b",
+            "Value": {
+                "id": "f5fd4e3e-8862-47f0-bd1b-c1169fae2e39",
+                "resourcePath": "objects\\buttonSticky\\buttonSticky.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "540f775d-6aae-4890-b1e6-904a5de04d1f",
             "Value": {
                 "id": "4e931e4c-eac4-4253-bf99-9c109c683545",
@@ -587,6 +595,14 @@
             "Value": {
                 "id": "f65f50bb-bc24-4332-bd6d-b6ceed17ad69",
                 "resourcePath": "sprites\\buttonSprite\\buttonSprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c16f8fca-6d31-4ef5-967e-ae2ff0cf122c",
+            "Value": {
+                "id": "4f20a341-33d9-4f47-a2ea-bb58610bc159",
+                "resourcePath": "sprites\\buttonStickySprite\\buttonStickySprite.yy",
                 "resourceType": "GMSprite"
             }
         },

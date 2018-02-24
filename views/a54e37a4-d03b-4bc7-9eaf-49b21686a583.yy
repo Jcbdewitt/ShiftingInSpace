@@ -11,7 +11,8 @@
         "de6d5748-cfe7-4949-9ed3-028f6c696f92",
         "2f660a0b-dc00-4867-baac-1ebcc4684b88",
         "a78bf71b-b32e-4fcc-a77d-44ad10e62094",
-        "30e1b8ef-5d7f-4077-aae3-34a8ccd52ae3"
+        "30e1b8ef-5d7f-4077-aae3-34a8ccd52ae3",
+        "5333b91f-bd92-49eb-b4d5-d6e016c5877b"
     ],
     "filterType": "GMObject",
     "folderName": "Room Building",
