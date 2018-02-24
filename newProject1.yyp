@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "c93cedc3-f280-464d-b071-7badeeb5f723",
+            "Value": {
+                "id": "6ff522e0-4cd8-47b0-884c-5416e64cebb1",
+                "resourcePath": "objects\\presentationCheat\\presentationCheat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc01a437-fd74-4640-b330-f492ebe77a80",
             "Value": {
                 "id": "269452aa-8988-4bd8-ad86-3c06848b24c8",
@@ -826,7 +834,7 @@
             "Key": "ec42fe36-a10c-4668-8689-084841ac3328",
             "Value": {
                 "id": "b4e8ab5e-f15a-4205-a106-71c5bf3973f9",
-                "resourcePath": "sprites\\doorOpened\\doorOpened.yy",
+                "resourcePath": "sprites\\doorOpenedSprite\\doorOpenedSprite.yy",
                 "resourceType": "GMSprite"
             }
         },

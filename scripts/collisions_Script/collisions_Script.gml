@@ -26,14 +26,19 @@ if (instance_exists(platform)) {
 	}
 }
 
-if(place_meeting(x+h_speed,y,door)) {
+if (instance_exists(door)){
+	var doorCheck = instance_nearest(x,y,door);
+	if (!doorCheck.open){
+		if(place_meeting(x+h_speed,y,door)) {
 	
-	while (!place_meeting(x+sign(h_speed),y,door)) {
-		x = x + sign(h_speed);	
+			while (!place_meeting(x+sign(h_speed),y,door)) {
+				x = x + sign(h_speed);	
+			}
+	
+			h_speed = 0;
+	
+		}
 	}
-	
-	h_speed = 0;
-	
 }
 
 if(place_meeting(x+h_speed,y,smashableWall)) {
@@ -72,14 +77,19 @@ if(place_meeting(x,y+v_speed,wall)) {
 	
 }
 
-if(place_meeting(x,y+v_speed,door)) {
+if (instance_exists(door)){
+	var doorCheck = instance_nearest(x,y,door);
+	if (!doorCheck.open){
+		if(place_meeting(x,y + v_speed ,door)) {
 	
-	while (!place_meeting(x,y+sign(v_speed),door)) {
-		y = y + sign(v_speed);	
+			while (!place_meeting(x+sign(v_speed),y,door)) {
+				x = x + sign(v_speed);	
+			}
+	
+			v_speed = 0;
+	
+		}
 	}
-	
-	v_speed = 0;
-	
 }
 
 if (instance_exists(platform)) {
