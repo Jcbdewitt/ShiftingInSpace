@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00002bc7-a4d9-4199-83ed-44b018b57bb2",
+            "Value": {
+                "id": "6cd4315f-fa99-4dc2-8dea-3a7df0532b28",
+                "resourcePath": "sprites\\turret\\turret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "01981dd6-c6e8-4e90-aefa-d93724f9c3eb",
             "Value": {
                 "id": "8947afa5-96d5-4afc-88cd-7307323b0939",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "3da694d2-eeba-45f3-ad5b-922187bee183",
+            "Value": {
+                "id": "a6c116c1-f33f-467f-affc-acf2cbb02b3d",
+                "resourcePath": "views\\3da694d2-eeba-45f3-ad5b-922187bee183.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
             "Value": {
                 "id": "ec6af43e-da76-4d4d-b4f4-a1bc7fe3617b",
@@ -300,6 +316,14 @@
                 "id": "92e011a4-fdfb-41eb-9b6d-b6a5cc5b32fa",
                 "resourcePath": "sounds\\titleMusic00\\titleMusic00.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "71737098-7e8e-4f85-af94-0a0c9264a3f3",
+            "Value": {
+                "id": "807ff9ab-f74c-49e9-a178-83c33520ad12",
+                "resourcePath": "views\\71737098-7e8e-4f85-af94-0a0c9264a3f3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -631,6 +655,14 @@
             }
         },
         {
+            "Key": "c7d7f462-f442-429d-bd84-18ee739aa50b",
+            "Value": {
+                "id": "f3f0b610-7d30-4ace-b632-33ba13e61643",
+                "resourcePath": "sprites\\activeTurret\\activeTurret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c88e793c-6470-402f-883e-8185531bf91f",
             "Value": {
                 "id": "5b81b0a4-7850-404e-bbaa-2068ca650dd5",
@@ -756,6 +788,14 @@
                 "id": "267acac1-74bf-4bf9-b528-a9c1d55c9daf",
                 "resourcePath": "views\\eb1be22e-29ed-4b58-810d-40babcc20b7f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec42fe36-a10c-4668-8689-084841ac3328",
+            "Value": {
+                "id": "b4e8ab5e-f15a-4205-a106-71c5bf3973f9",
+                "resourcePath": "sprites\\doorOpened\\doorOpened.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
