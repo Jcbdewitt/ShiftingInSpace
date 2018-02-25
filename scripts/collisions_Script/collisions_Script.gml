@@ -82,8 +82,8 @@ if (instance_exists(door)){
 	if (!doorCheck.open){
 		if(place_meeting(x,y + v_speed ,door)) {
 	
-			while (!place_meeting(x+sign(v_speed),y,door)) {
-				x = x + sign(v_speed);	
+			while (!place_meeting(x,y+sign(v_speed),door)) {
+				y = y + sign(v_speed);	
 			}
 	
 			v_speed = 0;
