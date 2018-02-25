@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "916c604f-03be-44d5-b69c-cbe711b6d9fd",
+            "Value": {
+                "id": "63458d34-6546-4cd6-bbe7-50fca50307df",
+                "resourcePath": "fonts\\fMenu\\fMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "94d22043-8d89-428a-96ff-ec3ae60006f2",
             "Value": {
                 "id": "f2baba13-8c85-4785-8071-be02b6e8ca1a",
@@ -532,6 +540,14 @@
                 "id": "4607ba7b-91af-419e-9409-4bb0807e38dd",
                 "resourcePath": "sprites\\player2Sprite\\player2Sprite.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "994ec87f-cb5e-4a75-bd27-f4f45276c78f",
+            "Value": {
+                "id": "d0147c86-82fd-4e8d-a9ba-a7dc9ca08fc0",
+                "resourcePath": "objects\\menuObj\\menuObj.yy",
+                "resourceType": "GMObject"
             }
         },
         {
