@@ -22,7 +22,9 @@ if (firingDelay < 0){
 	
 }
 
-if (collision_line(x, y, player.x, player.y, wall, false , true)) canSee = false;
+if (collision_line(x, y, player.x, player.y, wall, false , true)){ 
+canSee = false;
+}
 else canSee = true;
 
 if ((distance_to_point(player.x,player.y) > seenRadius) || (!canSee)) {
