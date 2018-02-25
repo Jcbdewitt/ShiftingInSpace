@@ -1,4 +1,5 @@
 enum playerstates {
+	menu,
 	alone,
 	intro,
 	normal

@@ -1,4 +1,5 @@
 enum player2states {
+	menu,
 	alone,
 	intro,
 	normal,

@@ -1,5 +1,10 @@
 //State machine to determine what script to run
 switch (player2states) {
+	case player2states.menu:
+		sprite_index = player2SpriteWalk;
+		image_speed = 1;
+		collisions_Script();
+		break;
 	case player2states.alone:
 		player2Alone_Script();
 		break;
