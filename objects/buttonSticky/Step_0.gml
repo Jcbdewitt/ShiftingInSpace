@@ -51,14 +51,19 @@ else{
 }
 #endregion
 
-if (stuck) {
-	if(runOnce) {
-		stuckId = instance_nearest(x,y,crate);
-		runOnce = false;
-	}
+if ((stuck) && (runOnce)) {
+	stuckId = instance_nearest(x,y,crate);
+	runOnce = false;
+	
 	with (stuckId) {
 		stuck = true;
-		y = other.y - 35;
-		x = other.x - 10;
+		if (player.gravSwitch) {
+			y = other.y + 10;
+			x = other.x;
+		}
+		else {
+			y = other.y - 35;
+			x = other.x - 10;
+		}
 	}
 }

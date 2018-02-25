@@ -10,6 +10,7 @@ with (crateid) {
 	x = other.x + 35 * sign(other.image_xscale);
 	y = other. y + 40 * sign(other.image_yscale) * -1;
 	pickedUp = true;
+	stuck = false;
 }
 	
 if (!global.active) {
