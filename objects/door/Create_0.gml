@@ -5,4 +5,3 @@ buttonOpened = false;
 keyOpened = false;
 doorid = 0;
 oneTime = 1;
-
