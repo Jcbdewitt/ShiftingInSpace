@@ -17,3 +17,4 @@ switch (playerstates) {
 //Turns on gravity
 v_speed = v_speed + global.grav;
 
+

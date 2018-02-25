@@ -5,9 +5,7 @@ if(place_meeting(x+h_speed,y,wall)) {
 		x = x + sign(h_speed);
 		
 	}
-	
 	h_speed = 0;
-	
 }
 
 if (instance_exists(platform)) {

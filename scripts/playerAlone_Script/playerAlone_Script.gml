@@ -15,7 +15,7 @@ if ((place_meeting(x+h_speed,y,door)) && (numOfCards > 0)) {
 	}
 }
 
-if (key_abilityUse){
+if (key_abilityUse1){
 	if (gravSwitch) {
 		audio_play_sound(gravityNormal,5,false);
 		gravSwitch = false;

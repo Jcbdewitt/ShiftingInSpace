@@ -19,7 +19,7 @@ if (!global.active) {
 	h_speed = move * mySpeed/2;
 	
 	//Throw crate
-	if (key_abilityUse) {
+	if (key_abilityUse1) {
 		grabCrate = false;
 		runOnce = true;
 		with (crateid) {
@@ -30,7 +30,7 @@ if (!global.active) {
 	}
 	
 	//Drop crate
-	if (key_switchRight) {
+	if (key_abilityUse2) {
 		grabCrate = false;
 		runOnce = true;
 		player2states = player2states.normal;

@@ -199,14 +199,6 @@
             }
         },
         {
-            "Key": "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
-            "Value": {
-                "id": "ec6af43e-da76-4d4d-b4f4-a1bc7fe3617b",
-                "resourcePath": "scripts\\abilitySelect_Script\\abilitySelect_Script.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "3fff21ce-f087-41bc-a098-e846b86454b4",
             "Value": {
                 "id": "98e1a172-0a18-479f-93ef-b049eaf86856",
@@ -346,7 +338,7 @@
             "Key": "72711090-bc10-4d21-b884-e14c44935f25",
             "Value": {
                 "id": "23d32ed1-2894-4c35-843d-62a4dc010dfc",
-                "resourcePath": "rooms\\levelTutorialPlayer2\\levelTutorialPlayer2.yy",
+                "resourcePath": "rooms\\triggers\\triggers.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -947,7 +939,6 @@
         "d449264d-7e9b-4160-9b00-a64795127247",
         "8b48a7d5-b318-4e27-952c-5e634cef0aea",
         "8077473f-4e99-42de-ae8f-a66863978022",
-        "3e0686c2-3c30-41d2-b6d1-7177f324de0a",
         "8542a4e2-851e-44a8-816b-362cc5a2f533",
         "e1f71faf-26d1-455e-a507-9462a9d08bff",
         "171fd71e-1eb4-4dd4-865a-3c8e799c9c4b",
