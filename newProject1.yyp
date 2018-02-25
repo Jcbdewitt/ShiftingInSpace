@@ -98,7 +98,7 @@
             "Key": "17a92dc5-7d6b-447e-b5c1-f287b973fda8",
             "Value": {
                 "id": "4c432c52-dcd5-4423-817f-f3a9cc53affd",
-                "resourcePath": "sprites\\smashableWallSpriteIdle\\smashableWallSpriteIdle.yy",
+                "resourcePath": "sprites\\smashableWallSprite\\smashableWallSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -586,7 +586,7 @@
             "Key": "a6fa4bba-8446-416f-9b8a-8edf2f31d32b",
             "Value": {
                 "id": "60cf7fa4-c2db-47e2-93bb-59f34d90e66b",
-                "resourcePath": "sprites\\smashableWallSprite\\smashableWallSprite.yy",
+                "resourcePath": "sprites\\smashableWallCrumbleSprite\\smashableWallCrumbleSprite.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -738,7 +738,7 @@
             "Key": "cefcba19-6fee-4905-8621-60040ae756ef",
             "Value": {
                 "id": "4553da68-6be4-40fe-8c9b-b042d93f392b",
-                "resourcePath": "sprites\\crackingWallDestroyed\\crackingWallDestroyed.yy",
+                "resourcePath": "sprites\\crackingWallDestroyedSprite\\crackingWallDestroyedSprite.yy",
                 "resourceType": "GMSprite"
             }
         },

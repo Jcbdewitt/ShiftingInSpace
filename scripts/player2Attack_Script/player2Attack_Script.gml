@@ -17,7 +17,7 @@ if  ((image_index >= 2) && (3 >= image_index)) {
 		image_xscale = other.image_xscale;
 		image_yscale = other.image_yscale;
 		with (instance_place(x,y,smashableWall)) {
-			instance_destroy();		
+			smashed = true;		
 		}
 	}
 	runOnce = true;

@@ -1,0 +1,2 @@
+smashed = false;
+destroyed = false;

@@ -40,17 +40,21 @@ if (instance_exists(door)){
 		}
 	}
 }
-
-if(place_meeting(x+h_speed,y,smashableWall)) {
+if (instance_exists(smashableWall)) {
+	var wallid = instance_nearest(x,y,smashableWall);
 	
-	while (!place_meeting(x+sign(h_speed),y,smashableWall)) {
-		x = x + sign(h_speed);	
+	if (!(wallid.smashed)){
+		if(place_meeting(x+h_speed,y,smashableWall)) {
+	
+			while (!place_meeting(x+sign(h_speed),y,smashableWall)) {
+				x = x + sign(h_speed);	
+			}
+	
+			h_speed = 0;
+	
+		}
 	}
-	
-	h_speed = 0;
-	
 }
-
 /*
 if(place_meeting(x+h_speed,y,crate)) {
 	

@@ -2,7 +2,7 @@
     "id": "cefcba19-6fee-4905-8621-60040ae756ef",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "crackingWallDestroyed",
+    "name": "crackingWallDestroyedSprite",
     "For3D": false,
     "HTile": false,
     "VTile": false,
