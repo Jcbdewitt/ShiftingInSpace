@@ -25,7 +25,9 @@ if (!global.active) {
 			image_xscale = other.image_xscale;
 			image_yscale = other.image_yscale;
 			if (instance_place(x,y,crate)) {
-				other.grabCrate = true;		
+				with(instance_place(x,y,crate)) {
+					if (!stuck) player2.grabCrate = true;
+				}
 			}
 		}
 		if (grabCrate == true) {

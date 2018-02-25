@@ -44,6 +44,6 @@ if (!global.active) {
 player2Animation_Script();
 
 //Slower animation because weight
-image_speed = .5;
+if (!(sprite_index == play2CratePickup)) image_speed = .5;
 
 collisions_Script();
