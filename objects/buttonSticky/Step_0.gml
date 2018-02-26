@@ -1,4 +1,5 @@
 #region pressing button
+//If crate is not stuck let it be pressable
 if (!stuck) {
 	if (place_meeting(x,y+1,crate)) {
 		image_index = 1;
@@ -6,6 +7,7 @@ if (!stuck) {
 		stuck = true;
 	}
 	else if ((place_meeting(x,y+1,player2))|| (place_meeting(x,y+1,player))){
+		soundOnClose = true;
 		image_index = 1;
 		pressed = true;
 	}
@@ -17,7 +19,9 @@ if (!stuck) {
 #endregion
 
 #region once pressed
+//If opened by door
 if (buttonOpened) {
+	//Open if pressed
 	if (pressed) {
 		with(door){
 	        if(doorid == other.buttonid){
@@ -25,6 +29,7 @@ if (buttonOpened) {
 	        }
 	    }
 	}
+	//Close if not
 	else {
 		with(door){
 	        if(doorid == other.buttonid){
@@ -33,6 +38,7 @@ if (buttonOpened) {
 	    }
 	}
 }
+//controls platform
 else{ 
 	if (pressed) {
 		with(platform){
@@ -51,6 +57,7 @@ else{
 }
 #endregion
 
+//If crate is stuck to button
 if ((stuck) && (runOnce)) {
 	stuckId = instance_nearest(x,y,crate);
 	runOnce = false;

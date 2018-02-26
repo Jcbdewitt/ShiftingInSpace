@@ -12,6 +12,8 @@ if (keyboard_check_pressed(ord("K"))) room_goto(5);
 
 if (keyboard_check_pressed(ord("L"))) room_goto(6);
 
-if (keyboard_check_pressed(ord("M"))) door.open = true;
+if (keyboard_check_pressed(ord("N"))) room_goto(7);
 
-if ((keyboard_check_pressed(ord("N"))) && instance_exists(button)) button.pressed = true;
+if (keyboard_check_pressed(ord("M"))) room_goto(8);
+
+if (keyboard_check_pressed(ord("H"))) room_restart();

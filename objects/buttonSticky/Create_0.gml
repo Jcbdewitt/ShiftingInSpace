@@ -1,4 +1,3 @@
-/// @desc
 image_speed = 0;
 pressed = false;
 stuck = false;

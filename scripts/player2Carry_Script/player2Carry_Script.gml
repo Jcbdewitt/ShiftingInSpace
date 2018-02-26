@@ -1,10 +1,12 @@
 playerInput_Script();
 
+//Get ID of crate atempting to grab
 if (runOnce){
 	crateid = (instance_nearest(x,y,crate));
 	runOnce = false;
 }
-	
+
+//Pin crate to player
 with (crateid) {
 	//Where the crate is held
 	x = other.x + 35 * sign(other.image_xscale);
@@ -14,6 +16,7 @@ with (crateid) {
 }
 	
 if (!global.active) {
+	//movement
 	var move = key_right - key_left;
 	
 	//Divided by 2 to slow down the player to add weight

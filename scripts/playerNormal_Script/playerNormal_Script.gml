@@ -2,16 +2,16 @@ playerInput_Script();
 
 //Player switcher
 if ((keyboard_check_pressed(vk_tab)) || (gamepad_button_check_pressed(0,gp_face4))) {
-		if (global.active) {
-			global.active = false;
-			h_speed = 0;
-			v_speed = 0;
-		}
-		else {
-			global.active = true;
-			player2.h_speed = 0;
-			player2.v_speed = 0;
-		}		
+	if (global.active) {
+		global.active = false;
+		h_speed = 0;
+		v_speed = 0;
+	}
+	else {
+		global.active = true;
+		player2.h_speed = 0;
+		player2.v_speed = 0;
+	}		
 }
 
 #region If has control
@@ -30,7 +30,7 @@ if (global.active) {
 		}
 	}
 
-	//Switch through the different abilitys that player has
+	//Grav switch power
 	if (key_abilityUse1){
 		if (gravSwitch) {
 			audio_play_sound(gravityNormal,5,false);
@@ -45,6 +45,7 @@ if (global.active) {
 			switchOffset = switchOffset * -1;
 		}
 	}
+	//switch places
 	if (key_abilityUse2){
 		oldX = x;
 		oldY = y;

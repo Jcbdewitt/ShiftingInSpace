@@ -8,8 +8,6 @@ enum player2states {
 }
 player2states = player2states.normal;
 crateid = 0;
-onSurface = false;
-pound = false;
 runOnce = true;
 grabCrate = false;
 mySpeed = 5;
@@ -24,5 +22,4 @@ hitboxTimerReset = 45;
 attackDelay = 25;
 attackDelayReset = attackDelay;
 numOfCards = 0;
-numOfAbilites = 2;
 roomIn = 1;

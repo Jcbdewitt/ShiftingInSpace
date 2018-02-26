@@ -1,3 +1,4 @@
+//Play animation and jump up
 if (runOnce){
 	sprite_index = player2SpriteAttack;
 	image_speed = 1.15;
@@ -9,7 +10,7 @@ if (runOnce){
 }
 
 
-
+//on slam
 if  ((image_index >= 2) && (3 >= image_index)) {
 	audio_play_sound(punch,5,false);
 	image_index = 3;

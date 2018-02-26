@@ -15,6 +15,7 @@ if ((place_meeting(x+h_speed,y,door)) && (numOfCards > 0)) {
 	}
 }
 
+//Gravity Switch power
 if (key_abilityUse1){
 	if (gravSwitch) {
 		audio_play_sound(gravityNormal,5,false);
@@ -26,10 +27,6 @@ if (key_abilityUse1){
 		gravSwitch = true;
 		global.grav = -1;
 	}
-}
-
-if (place_meeting(x+h_speed,y,trigger)) {
-	playerstates = playerstates.intro;
 }
 
 playerAnimation_Script();
