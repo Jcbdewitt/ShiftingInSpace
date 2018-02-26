@@ -1,1 +1,2 @@
-doorid = 2;
+doorid = 10;
+buttonOpened = true;
